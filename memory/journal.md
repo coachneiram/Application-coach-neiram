@@ -13,3 +13,4 @@ Append-only. Une entrée par décision ou résultat notable. Format : date, fait
 - 2026-09-06 — Scénario de test Ventes (objection prix, papa 36 ans) : conforme. Question remontée : le suivi à distance 150 €/mois est-il ouvert aux prospects en ligne ?
 - 2026-09-06 — CRM vérifié de bout en bout après déploiement du script par Marien : lecture (clients, leads, relances) et écriture (lead, interaction, statut) fonctionnelles, secret contrôlé, 11 tests verts. Lead de test `L-20260906-001` à supprimer à la main. Onglet Clients : dates de début et durées d'engagement encore vides.
 - 2026-09-06 — Lignes de test du CRM supprimées par Marien. Leads, Interactions et relances vides, vérifié par script et par lecture Drive. Le CRM est propre et prêt pour les premiers prospects.
+- 2026-09-06 — Marien confirme : aucun prospect en discussion au 06/09, pipeline vide (présentiel et en ligne). Onglet Clients (dates de début, durées) à compléter plus tard par Marien.
