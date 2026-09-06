@@ -141,3 +141,12 @@ Voir la liste complète dans le message de session du 2026-09-06 et les réponse
 40. Préférence pour le stockage du CRM : Notion, Airtable, Google Sheets, base dédiée.
 41. Budget mensuel acceptable pour les outils (API, hébergement, abonnements).
 42. Compétences techniques : qui maintiendra le système.
+
+## 8. Corrections après l'audit des fichiers (2026-09-06, même jour)
+
+- La source de vérité CA est le Google Sheet `Suivi CA Coaching` (janvier → septembre 2026, virements cochés), pas `Suivi CA CoachNeiram.xlsx` qui est une projection obsolète.
+- L'affirmation « zéro renouvellement enregistré » du §3 est fausse : la colonne « date de début » du xlsx est une date de renouvellement. Des renouvellements et changements de formule existent (Sabine P, Christelle C, Loïc P).
+- CA brut réel : ≈ 2 900 €/mois en moyenne janvier-août, loyer Fitness Park 400 €/mois depuis avril, URSSAF ≈ 25 %.
+- Systèmes existants non vus au premier passage : app client PWA, pipeline de pointage vers `Suivi Coaching en ligne`, 3 PDF Payhip, 4 sites Netlify, pipeline de leads « Bilan coach » de Fitness Park, cours collectifs (Pilates, associations), ancien système « BOS ».
+
+Détail complet : `docs/phase-0/audit-donnees.md`.
