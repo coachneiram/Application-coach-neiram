@@ -7,7 +7,7 @@
  * (mode « --dry-run » implicite). Aucun secret n'est jamais écrit dans le dépôt.
  *
  * Commandes :
- *   lead        --prenom X --source Y --canal Z [--telephone --email --probleme --objectif --offre --interet 1-5 --assigne Marien|Clara --prochaine "…" --relance JJ/MM/AAAA --notes]
+ *   lead        --prenom X --source Y --canal Z [--telephone --email --probleme --objectif --offre --interet 1-5 --assigne Marien|Clara --prochaine "…" --relance JJ/MM/AAAA | --relance-jours N --notes]
  *   interaction --lead ID --canal DM|WhatsApp|Appel|Email|SMS|Salle --resume "…" [--prochaine "…" --relance JJ/MM/AAAA --statut S --par Marien|Clara --date JJ/MM/AAAA]
  *   lead-statut --lead ID --statut S [--resultat "…"]
  *   relances    [--date JJ/MM/AAAA]
@@ -59,6 +59,7 @@ export function construireCharge(commande, opts) {
       verifierStatut(opts.statut);
       const interet = opts.interet ? Number(opts.interet) : "";
       if (interet !== "" && !(interet >= 1 && interet <= 5)) throw new Error("--interet doit être entre 1 et 5");
+      if (opts["relance-jours"] !== undefined && !(Number(opts["relance-jours"]) >= 0)) throw new Error("--relance-jours doit être un nombre de jours");
       return {
         action: "addLead",
         lead: {
@@ -66,7 +67,7 @@ export function construireCharge(commande, opts) {
           telephone: opts.telephone ?? "", email: opts.email ?? "", probleme: opts.probleme ?? "",
           objectif: opts.objectif ?? "", offre: opts.offre ?? "", interet,
           statut: opts.statut ?? "Nouveau", assigne: opts.assigne ?? "Marien",
-          prochaine: opts.prochaine ?? "", relance: opts.relance ?? "", notes: opts.notes ?? ""
+          prochaine: opts.prochaine ?? "", relance: opts.relance ?? "", relanceJours: opts["relance-jours"] ?? "", notes: opts.notes ?? ""
         }
       };
     }

@@ -151,18 +151,28 @@ function nouvelId_(prefixe, feuille) {
 
 function pad_(n) { return ("00" + n).slice(-3); }
 
+/** Date du jour + n jours, au format JJ/MM/AAAA (pour les outils qui ne savent pas calculer une date, ex. ManyChat). */
+function dansNJours_(n) {
+  var d = new Date();
+  d.setDate(d.getDate() + Number(n));
+  return Utilities.formatDate(d, "Europe/Paris", "dd/MM/yyyy");
+}
+
 function ajouterLead_(l) {
   if (!l.prenom || !l.source) throw new Error("prenom et source obligatoires");
   verifierDans_(l.statut, STATUTS, "statut");
   verifierDans_(l.assigne, ASSIGNES, "assigne");
   var feuille = feuille_("Leads");
   var id = nouvelId_("L", feuille);
+  var relance = l.relance;
+  if (!relance && l.relanceJours !== undefined && l.relanceJours !== "" && !isNaN(Number(l.relanceJours))) relance = dansNJours_(l.relanceJours);
+  var derniere = l.derniere === true || l.derniere === "aujourdhui" ? aujourdhui_() : "";
   feuille.appendRow([
     id, aujourdhui_(), texte_(l.prenom), texte_(l.nom), texte_(l.source), texte_(l.canal), texte_(l.telephone), texte_(l.email),
     texte_(l.probleme), texte_(l.objectif), texte_(l.offre), l.interet === "" || l.interet == null ? "" : Number(l.interet),
-    l.statut || "Nouveau", "", texte_(l.prochaine), texte_(l.relance), "", l.assigne || "Marien", texte_(l.notes)
+    l.statut || "Nouveau", derniere, texte_(l.prochaine), texte_(relance), "", l.assigne || "Marien", texte_(l.notes)
   ]);
-  return { ok: true, id: id };
+  return { ok: true, id: id, relance: relance || "" };
 }
 
 function ligneLead_(feuille, leadId) {

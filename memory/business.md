@@ -14,7 +14,7 @@ Mise à jour : 2026-09-06. Sources : audit Phase 0, réponses de Marien du 06/09
 | Pôle | Cible | Lieu / canal | État |
 |---|---|---|---|
 | Présentiel | Débutants qui veulent s'entraîner sans se blesser, avec méthode et confiance | Fitness Park Clermont-Ferrand Le Brezet (loyer 400 €/mois depuis avril 2026), associations locales, cours collectifs | Cœur du CA, proche de la saturation horaire |
-| En ligne | Jeunes papas en reprise de sport (« Le Créneau Protégé ») | App client + visio + WhatsApp, appel découverte Calendly | Lancement en cours, publicités imminentes avec UpTrainer, aucun revenu identifié à ce jour, aucun prospect en discussion au 06/09 |
+| En ligne | Jeunes papas en reprise de sport (« Le Créneau Protégé ») | App client + visio + WhatsApp, appel découverte Calendly | Lancement en cours, publicités Meta avec UpTrainer prévues fin septembre / début octobre 2026 (Marien, 06/09), aucun revenu identifié à ce jour, aucun prospect en discussion au 06/09 |
 
 Mis de côté (décision du 06/09) : offre golfeurs « Tenir la Carte ». Documents conservés dans le Drive UpTrainer.
 

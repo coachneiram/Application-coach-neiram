@@ -38,3 +38,10 @@ test("envoyer transmet le secret et lit la réponse du script", async () => {
   assert.equal(refus.envoye, false);
   assert.match(refus.raison, /secret/);
 });
+
+test("lead : --relance-jours est transmis au script, valeur invalide refusée", () => {
+  const charge = construireCharge("lead", { prenom: "A", source: "Instagram", "relance-jours": "2" });
+  assert.equal(charge.lead.relanceJours, "2");
+  assert.equal(charge.lead.relance, "");
+  assert.throws(() => construireCharge("lead", { prenom: "A", source: "B", "relance-jours": "demain" }), /relance-jours/);
+});
