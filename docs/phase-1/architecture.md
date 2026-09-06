@@ -1,6 +1,6 @@
 # Phase 1 — Architecture proposée de l'AI Business OS
 
-Date : 2026-09-06. Statut : proposition, en attente de validation. Aucun agent développé.
+Date : 2026-09-06. Statut : **validée le 2026-09-06 avec deux ajouts** (Community Manager, Coordination setting/closing avec Clara). CRM sur Google Sheets. Golf mis de côté. Développement du MVP 1 démarré.
 
 ## 1. Ce que l'audit impose
 
@@ -22,10 +22,12 @@ ORCHESTRATEUR  = CLAUDE.md du dépôt
   - applique la règle READ → ANALYSE → PROPOSE → VALIDATION → ACTION
   - met à jour la mémoire et le journal
   │
-  ├── AGENT 1  Pilotage        (CEO + Business Analyst)
-  ├── AGENT 2  Ventes          (Sales + CRM follow-up)
-  ├── AGENT 3  Acquisition     (Marketing + Content + Social Analyst + Lead Gen local)
-  └── AGENT 4  Réussite client (Client Success + support Coaching)
+  ├── AGENT 1  Pilotage          (CEO + Business Analyst)
+  ├── AGENT 2  Ventes            (Sales + CRM follow-up)
+  ├── AGENT 3  Acquisition       (Marketing + Content + Social Analyst + Lead Gen local)
+  ├── AGENT 4  Réussite client   (Client Success + support Coaching)
+  ├── AGENT 5  Community Manager (commentaires, DM non commerciaux, engagement)
+  └── AGENT 6  Coordination setting/closing (lien avec Clara)
   │
   ├── SKILLS (compétences invocables, pas d'autonomie)
   │     recherche (FAIT / HYPOTHÈSE / RECOMMANDATION), programme-4-semaines,
@@ -40,7 +42,7 @@ ORCHESTRATEUR  = CLAUDE.md du dépôt
         Mémoire centrale (markdown versionné, sans donnée personnelle)  → ce dépôt
         Sheet CA (source de vérité CA)                                  → Google Sheets, existant
         Suivi Coaching en ligne (adhérence)                             → Google Sheets, existant
-        CRM : leads, interactions, relances, clients                    → Airtable (recommandé) ou Sheet
+        CRM : leads, interactions, relances, clients                    → Google Sheet « CRM CoachNeiram » + Apps Script
         Bilan coach Fitness Park                                        → reste chez FP, lecture agrégée seulement
 ```
 
@@ -91,6 +93,26 @@ Un **agent** existe seulement là où il faut du jugement récurrent sur des don
 - **Actions autorisées** : analyser, proposer. **Nécessitant validation** : tout message client, toute modification de programme.
 - **KPI** : churn mensuel, taux de renouvellement, délai entre alerte et contact, temps de reprogrammation.
 
+### Agent 5 — Community Manager (ajouté à ta demande)
+
+- **Mission** : entretenir la communauté sur Instagram, Facebook, YouTube et TikTok : répondre aux commentaires, trier les messages privés, relancer l'engagement, faire vivre les rituels (stories, questions, sondages).
+- **Pourquoi il est séparé d'Acquisition** : Acquisition produit et planifie ; le Community Manager réagit chaque jour à ce que la communauté dit. Rythme, données d'entrée et compétence diffèrent.
+- **Entrées** : commentaires et messages collés ou exportés (pas de connecteur Instagram avant le MVP 3), mémoire (ton, positionnement, FAQ), calendrier des publications.
+- **Sorties** : réponses proposées aux commentaires, tri des DM en trois files (question simple → réponse proposée ; intérêt commercial → transmis à Ventes ou à Clara ; autre → archivé), idées de stories tirées des questions récurrentes, rapport hebdo d'engagement.
+- **Règle absolue** : ne publie et n'envoie jamais rien lui-même. Tout message part de ta main ou de celle de Clara.
+- **Données interdites** : aucune donnée de santé dans les réponses publiques.
+- **KPI** : délai de réponse aux commentaires, part de DM commerciaux transmis sous 24 h, questions récurrentes transformées en contenu.
+
+### Agent 6 — Coordination setting/closing (lien avec Clara, ajouté à ta demande)
+
+- **Mission** : faire circuler l'information entre toi, le CRM et Clara (setteuse / closeuse) sans perte ni doublon.
+- **Pourquoi il existe** : dès que deux personnes touchent le pipeline, il faut une règle d'attribution, un brief par lead et un retour d'appel structuré. Sans cela, deux relances partent le même jour ou aucune.
+- **Entrées** : CRM (colonne « Assigné »), RDV Calendly, comptes rendus d'appels de Clara (texte libre, vocal transcrit ou formulaire), tes consignes commerciales.
+- **Sorties** : brief de lead pour Clara (contexte, source, objectif, objections probables, offre à proposer), retour d'appel normalisé dans le CRM (issue, objection, prochaine action, date), synthèse hebdo pour Clara (leads reçus, taux de prise de RDV, taux de closing, points à améliorer), alerte quand un lead assigné n'a pas d'action depuis 48 h.
+- **Hypothèses à confirmer avec toi** : périmètre de Clara (setting seul, closing seul, les deux), canaux qu'elle opère (tes DM Instagram, WhatsApp, appels), outils qu'elle utilise, mode de rémunération, ce qu'elle attend de toi.
+- **Règle** : Clara écrit dans le CRM ou t'envoie ses retours ; l'agent ne parle jamais aux prospects à sa place.
+- **KPI** : délai lead → premier contact, taux RDV pris → RDV honoré, taux closing, aucun lead assigné sans action depuis plus de 48 h.
+
 ## 4. Ce qui n'est pas un agent, et pourquoi
 
 | Demandé dans le brief | Devient | Raison |
@@ -105,7 +127,7 @@ Un **agent** existe seulement là où il faut du jugement récurrent sur des don
 | Research | Skill `recherche` disponible pour tous les agents | Compétence transverse |
 | Orchestrateur | `CLAUDE.md` + règles de routage | Pas besoin d'un modèle supplémentaire |
 
-Résultat : 4 agents, 6 skills, 5 outils. Chaque élément a un consommateur identifié.
+Résultat : 6 agents, 6 skills, 5 outils. Chaque élément a un consommateur identifié.
 
 ## 5. Mémoire centrale
 
@@ -121,13 +143,11 @@ Dossier `memory/` dans ce dépôt, markdown versionné, relu par tous les agents
 
 Le CRM et les données de santé restent hors du dépôt.
 
-## 6. Stockage du CRM : recommandation
+## 6. Stockage du CRM : décision
 
-**Airtable**, base « CRM CoachNeiram », tables Leads, Interactions, Clients, Renouvellements.
+**Google Sheets** (ton choix), classeur « CRM CoachNeiram », onglets Leads, Interactions, Clients, Parametres.
 
-Raisons : le connecteur Airtable de cette session sait créer et modifier des enregistrements sans code, donc les agents écrivent dans le CRM depuis n'importe quelle session. Vues par statut et par date de relance intégrées. Le plan gratuit suffit pour ton volume. Le Sheet CA reste la source de vérité du chiffre d'affaires.
-
-Alternative : Google Sheets. Cohérent avec tes habitudes, mais l'écriture depuis les agents demande un Apps Script supplémentaire, comme celui de l'app. Décision à toi ; le schéma est identique dans les deux cas.
+Mécanique : le connecteur Google Drive lit le classeur. L'écriture passe par un Apps Script web `apps-script/crm.gs` protégé par un secret, exactement comme `coach-sync.gs` de ton app. L'outil `tools/crm.mjs` l'appelle. Le Sheet CA reste la source de vérité du chiffre d'affaires ; le CRM ne le duplique pas.
 
 ## 7. Intégrations : ce qui est réellement possible
 
@@ -137,7 +157,7 @@ Alternative : Google Sheets. Cohérent avec tes habitudes, mais l'écriture depu
 | Calendly | Connecteur branché : liste des RDV, invités, réponses aux questions (téléphone). Webhooks officiels `invitee.created` disponibles | Immédiat en lecture ; webhook en MVP 3 | MVP 1 / 3 |
 | Gmail | Connecteur branché : créer des brouillons. Envoi seulement sur validation | Immédiat | MVP 1 |
 | Google Calendar | Connecteur branché : créneaux réels | Immédiat | MVP 2 |
-| Airtable | Connecteur branché, lecture / écriture | Immédiat | MVP 1 |
+| CRM Google Sheet | Lecture via Drive ; écriture via Apps Script `crm.gs` + secret | Immédiat après déploiement du script par Marien | MVP 1 |
 | UpTrainerOS | Connecteur branché : contexte, documents, parcours, sauvegarde de mémoire et de documents. Pas de données clients | Immédiat, périmètre limité | MVP 1 (lecture) |
 | Instagram | Graph API Meta : compte professionnel lié à une Page Facebook, app Meta, OAuth. Insights, commentaires, publication. Messages via l'API Messenger pour Instagram, soumise à revue d'app | Réalisable, 1 à 2 jours de mise en place, revue Meta pour les DM | MVP 3 |
 | Facebook Page | Même app Meta : publication, statistiques, commentaires, leads | Idem | MVP 3 |
@@ -170,10 +190,10 @@ Ordre de priorité des agents, par impact business sur effort :
 
 Livrables :
 1. `CLAUDE.md` orchestrateur + `memory/` remplie à partir de l'audit et de tes réponses.
-2. CRM créé (Airtable ou Sheet) avec le pipeline complet.
+2. CRM créé (Google Sheet) avec le pipeline complet et le script d'écriture.
 3. Outil `kpi` : lit le Sheet CA, produit CA du mois, écart à l'objectif, clients actifs, renouvellements à 30 et 60 jours.
 4. Outil `crm` : ajouter un lead, une interaction, lister les relances dues.
-5. Agent Ventes + Agent Pilotage.
+5. Agents Ventes, Pilotage, Coordination setting/closing ; les trois autres agents livrés en version initiale.
 6. Routine du lundi : rapport de pilotage envoyé en brouillon Gmail.
 7. Tests sur scénarios réels : « prospect qui veut perdre 10 kg mais trouve le prix trop élevé », « prospect silencieux depuis 5 jours », « je veux remplir mes créneaux du mardi soir », « analyse mon offre actuelle ».
 
@@ -191,9 +211,9 @@ Webhook Calendly → CRM. App Meta pour Instagram et Facebook. Formulaire site �
 
 Brouillons de relance générés automatiquement, jamais envoyés sans toi. Alertes de risque client poussées le matin. Revue trimestrielle d'automatisation.
 
-## 10. Décisions attendues avant de développer
+## 10. Décisions prises le 2026-09-06
 
-1. Valider ou amender cette architecture (4 agents, 6 skills, 5 outils).
-2. Choisir le stockage du CRM : Airtable (recommandé) ou Google Sheets.
-3. Confirmer que le golf est mis de côté.
-4. Dire si le `Core/` rempli du BOS existe quelque part.
+1. Architecture validée avec deux agents ajoutés : Community Manager, Coordination setting/closing (Clara).
+2. CRM sur Google Sheets.
+3. Golf mis de côté.
+4. Le `Core/` rempli du BOS n'est pas transmissible : la mémoire est reconstruite à partir de l'audit.

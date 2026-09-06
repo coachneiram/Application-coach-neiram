@@ -1,0 +1,6 @@
+ID,Prénom,Canal,Offre,Tarif mensuel,Date début,Durée (mois),Date fin,Statut
+C-001,Alpha,Présentiel,Hebdo 12 mois,220,01/01/2026,12,,Actif
+C-002,Bravo,Présentiel,Hebdo 3 mois,280,17/06/2026,3,,Actif
+C-003,Charlie,En ligne,Créneau Protégé,250,,,15/10/2026,Actif
+C-004,Delta,Présentiel,Hebdo 3 mois,280,01/01/2026,3,,Terminé
+C-005,Echo,Présentiel,Mensuel,210,,,,Actif

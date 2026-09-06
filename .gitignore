@@ -1,0 +1,11 @@
+# Données personnelles et exports : jamais dans le dépôt
+data/cache/
+data/*.csv
+data/*.json
+data/*.md
+!data/.gitkeep
+.env
+.env.*
+node_modules/
+*.log
+.DS_Store
