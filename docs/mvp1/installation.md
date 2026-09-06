@@ -12,7 +12,16 @@ Un classeur Google Sheets « CRM CoachNeiram » est créé dans ton Drive, dossi
 4. Dans l'éditeur, sélectionne la fonction `installer` → **Exécuter**. Autorise l'accès au classeur quand Google le demande. Les onglets Leads, Interactions, Clients, Parametres apparaissent avec leurs listes déroulantes.
 5. **Déployer → Nouveau déploiement → Application Web**. Exécuter en tant que : **moi**. Accès : **Tout le monde** (le secret protège l'écriture). Copie l'URL du déploiement (elle finit par `/exec`).
 
-## 3. Les variables d'environnement
+## 3. Les variables d'environnement et l'accès réseau
+
+**Accès réseau (obligatoire, vérifié le 06/09/2026).** L'environnement Claude Code de ce dépôt bloque par défaut les connexions vers `script.google.com` (réponse 403 de la passerelle). Dans claude.ai/code → Environnements → ton environnement → réglages réseau, ajoute à la liste des domaines autorisés :
+
+```
+script.google.com
+script.googleusercontent.com
+```
+
+Le second domaine sert aux redirections des applications web Apps Script. Sans cette autorisation, `tools/crm.mjs` affiche « fetch failed » même avec les bonnes variables.
 
 Dans l'environnement Claude Code de ce dépôt (claude.ai/code → Environnements → variables), ajoute :
 
