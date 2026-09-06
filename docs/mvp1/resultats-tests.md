@@ -26,3 +26,19 @@ Entrée : `data/cache/kpi.json` calculé sur l'export du Sheet CA, CRM vide, pub
 Sortie : rapport de 240 mots au format fixe, sources datées, un goulot (conversion en ligne inexistante), trois priorités avec impact, effort et répartition, phrase « fais X plutôt que Y parce que », signaux. Confiance indiquée sur l'estimation des virements en retard. Aucun nom de client. Rapport archivé dans `docs/rapports/2026-09-06-pilotage.md` et déposé en brouillon Gmail.
 
 Verdict : **conforme**. Point d'attention : la priorité 3 (encaissement) repose sur des virements non cochés dans le Sheet, qui peuvent être un retard de saisie. À confirmer par Marien avant toute relance.
+
+### Vérification du CRM déployé (2026-09-06, après installation par Marien)
+
+Entrée : script `crm.gs` déployé en application Web, `CRM_URL` et `CRM_SECRET` renseignés dans l'environnement, domaine `script.google.com` autorisé.
+
+Contrôles passés :
+- Lecture du classeur par le connecteur Drive : 4 onglets (Clients, Leads, Interactions, Parametres), 18 clients préremplis, Leads et Interactions vides, `objectif_mensuel` 4000 et `relances_max` 3.
+- `clients`, `leads`, `relances` via le script : réponses `ok: true`, cohérentes avec le classeur.
+- Écriture : lead de test `L-20260906-001` créé, interaction ajoutée (ligne 2 de l'onglet Interactions), statut mis à jour, `Dernière interaction` et `Date relance` recopiées sur le lead.
+- Filtre des relances : le lead apparaît en statut « Relance » à la date du jour, disparaît en « Perdu » et à une date de référence antérieure.
+- Secret invalide : refus « secret invalide », code de sortie 1.
+- `node --test tests/*.test.mjs` : 11 tests verts.
+
+Verdict : **conforme**. Le CRM est opérationnel en lecture et en écriture.
+
+À faire par Marien : supprimer à la main la ligne `L-20260906-001` (onglet Leads) et sa ligne d'interaction (onglet Interactions), le script ne permettant aucune suppression. Compléter sur l'onglet Clients les colonnes Offre, Date début, Durée et Source, sans quoi `tools/renouvellements.mjs` ne peut rien anticiper. Deux tarifs de septembre sont vides (C-005, C-010) et C-012 est à 50 € : à confirmer.
