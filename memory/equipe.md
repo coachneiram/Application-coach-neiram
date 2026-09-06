@@ -12,7 +12,7 @@ Mise à jour : 2026-09-06.
 ## Règles d'attribution du pipeline (proposées, à valider)
 
 - Chaque lead a un et un seul responsable dans la colonne « Assigné » du CRM : Marien ou Clara.
-- Leads en ligne (papas, ads, Calendly) : Clara par défaut si elle fait le setting ; Marien sinon.
+- Leads en ligne (papas, ads, Calendly, ManyChat) : Marien (décision du 06/09), à rebasculer sur Clara quand son périmètre est confirmé.
 - Leads présentiel (Fitness Park, bouche-à-oreille, associations) : Marien.
 - Un lead sans action depuis 48 h remonte dans l'alerte de l'agent Coordination.
 - Clara consigne chaque contact dans l'onglet Interactions (ou l'envoie à Marien qui le fait faire par l'agent).

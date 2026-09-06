@@ -1,6 +1,6 @@
 # Tunnel ManyChat → Instagram → Calendly → CRM
 
-Rédigé le 2026-09-06 (agent Acquisition + Ventes). Statut : **proposition à valider par Marien**, texte par texte. Rien n'est en ligne tant que Marien n'a pas créé le compte ManyChat et collé les scénarios.
+Rédigé le 2026-09-06 (agent Acquisition + Ventes). Statut : **messages validés par Marien le 06/09**, leads en ligne assignés à Marien jusqu'à confirmation du périmètre de Clara. Rien n'est en ligne tant que Marien n'a pas créé le compte ManyChat et collé les scénarios.
 
 ## 1. Ce que fait ce tunnel, et ce qu'il ne fait pas
 
@@ -181,8 +181,8 @@ Hypothèse de départ, sans aucune donnée : 10 commentaires PAPA → 5 « Oui �
 
 ## 8. Décisions attendues de Marien
 
-1. Valider ou corriger chaque message de la section 4 (dire « ok » ou renvoyer le texte modifié).
+1. ~~Valider chaque message de la section 4~~ Fait le 06/09.
 2. Mot-clés PAPA et SALLE : ok, ou autres.
-3. Assigné des leads en ligne : Marien ou Clara.
+3. ~~Assigné des leads en ligne~~ Marien, décidé le 06/09. À rebasculer sur Clara quand son périmètre est confirmé.
 4. Créer ou non un événement Calendly présentiel de 15 min.
 5. Date de passage en forfait Pro (recommandation : la semaine du lancement des pubs, fin septembre).
