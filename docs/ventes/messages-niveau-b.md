@@ -2,9 +2,9 @@
 
 Rédigé le 2026-09-06. Règle : `memory/regles.md`, niveaux d'autonomie. Un message de cette liste peut être envoyé par un agent sans validation, à condition que le texte soit exactement celui validé ici et que seuls les champs entre accolades changent. Tout autre message reste au niveau C.
 
-Canal par défaut : e-mail (connecteur Gmail, envoi possible une fois le texte validé). WhatsApp perso : jamais piloté par un agent ; Marien copie-colle s'il préfère ce canal. Ton : tutoiement, court, sans emoji, signé Marien.
+Canaux : e-mail (connecteur Gmail) et WhatsApp Business (via API seulement, voir statut). Ton : tutoiement, court, sans emoji, signé Marien.
 
-Statut : **à valider par Marien** (répondre « ok » message par message, ou renvoyer le texte corrigé).
+Statut : **validés par Marien le 06/09/2026**, les quatre, tels quels. Canal autorisé par Marien : e-mail et WhatsApp Business. WhatsApp n'est pilotable par un agent qu'une fois l'API WhatsApp Business branchée (ManyChat, coexistence) ; jusque-là, Marien envoie lui-même via les réponses rapides de l'appli (`/seance`, `/paiement`, `/renouvellement`, `/bilan`).
 
 ## B1. Rappel de séance, la veille (présentiel et visio)
 

@@ -23,7 +23,7 @@ Ce qui est autorisé sans validation : lire, calculer, analyser, rédiger des pr
 Décision par type d'action, pas par agent. Détail et liste des automatisations : `docs/phase-1/autonomie-agents.md`.
 
 - **Niveau A, autonome** : lire, calculer, alerter, écrire dans le CRM, générer brouillons, rapports, documents, propositions de programme. Rien ne sort vers un client ou un prospect.
-- **Niveau B, autonome sur un texte validé une fois** : messages standard dont Marien a validé le modèle (rappel de séance, rappel de paiement, message de renouvellement, bilan hebdo en ligne, réponses ManyChat). Seuls le prénom et la date changent. Liste des messages et canal (e-mail, SMS, WhatsApp Business) : à fixer par Marien. Le WhatsApp personnel de Marien n'est jamais piloté par un agent.
+- **Niveau B, autonome sur un texte validé une fois** : messages standard dont Marien a validé le modèle (rappel de séance, rappel de paiement, message de renouvellement, bilan hebdo en ligne, réponses ManyChat). Seuls le prénom et la date changent. Messages validés le 06/09 : les quatre de `docs/ventes/messages-niveau-b.md`. Canaux autorisés par Marien le 06/09 : e-mail et WhatsApp Business. Marien autorise les relances de niveau B par WhatsApp ; techniquement possible seulement via l'API WhatsApp Business, pas via l'appli. Une relance à un prospect reste au niveau C.
 - **Niveau C, validation à chaque fois** : toute conversation avec un prospect, tout prix ou condition de vente, tout message touchant à la santé, toute publication, tout contact avec un partenaire. La liste ci-dessus reste en vigueur.
 
 ## Sources de vérité
