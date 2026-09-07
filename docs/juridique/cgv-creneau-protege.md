@@ -10,7 +10,7 @@ Fondements utilisés : Code de la consommation (vente à distance, articles L221
 
 ### 1. Prestataire
 
-Marien Pelissier, coach sportif diplômé (DEUST Métiers de la Forme), exerçant sous le nom commercial « Coach Neiram », micro-entrepreneur, SIRET : *à compléter*, adresse : *à compléter*, e-mail de contact : *à compléter*. TVA non applicable, article 293 B du CGI (*à confirmer selon le régime*).
+Marien Pelissier, coach sportif diplômé (DEUST Métiers de la Forme), exerçant sous le nom commercial « Coach Neiram », entrepreneur individuel immatriculé au répertoire SIRENE depuis le 30/11/2021 (SIRET, adresse professionnelle et e-mail de contact : *insérés dans le contrat envoyé au client, non stockés dans ce dépôt*). TVA non applicable, article 293 B du CGI (franchise en base du régime micro-entrepreneur, à confirmer si le chiffre d'affaires dépasse le seuil).
 
 ### 2. Objet
 
@@ -26,7 +26,7 @@ Accompagnement à distance de six mois destiné à un adulte souhaitant reprendr
 
 ### 3. Prix et paiement
 
-Prix : 1 500 € TTC en une fois, ou 3 versements de 520 € TTC (1 560 € au total) : le premier à la signature, les deux suivants à un et deux mois. Moyens de paiement : *à compléter* (virement, carte via *outil*). Un versement non honoré à 10 jours suspend la prestation jusqu'à régularisation, après un rappel écrit.
+Prix : 1 500 € TTC en une fois, ou 3 versements de 520 € TTC (1 560 € au total) : le premier à la signature, les deux suivants à un et deux mois. Paiement par virement bancaire sur le compte professionnel dont le RIB est joint au contrat (RIB non stocké dans ce dépôt). Un versement non honoré à 10 jours suspend la prestation jusqu'à régularisation, après un rappel écrit.
 
 ### 4. Durée et démarrage
 
@@ -34,7 +34,7 @@ Six mois à compter de la date de démarrage indiquée au contrat. Le démarrage
 
 ### 5. Conditions préalables liées à la santé
 
-Le client déclare ne pas avoir de contre-indication médicale à la pratique d'une activité physique, et remet avant le démarrage soit un certificat médical de non-contre-indication de moins de six mois, soit un questionnaire de santé signé (*modèle à joindre : à compléter*). Le coach ne délivre aucun avis médical, diagnostic ou prescription ; toute douleur, blessure ou pathologie signalée entraîne l'orientation vers un professionnel de santé et, si nécessaire, la suspension de l'accompagnement (article 8).
+Le client déclare ne pas avoir de contre-indication médicale à la pratique d'une activité physique, et remet avant le démarrage soit un certificat médical de non-contre-indication de moins de six mois, soit un questionnaire de santé signé (modèle en annexe : toute réponse « oui » entraîne la demande d'un certificat médical avant démarrage). Le coach ne délivre aucun avis médical, diagnostic ou prescription ; toute douleur, blessure ou pathologie signalée entraîne l'orientation vers un professionnel de santé et, si nécessaire, la suspension de l'accompagnement (article 8).
 
 ### 6. Droit de rétractation
 
@@ -65,7 +65,7 @@ Programmes, vidéos et documents remis sont réservés à l'usage personnel du c
 
 ### 12. Responsabilité
 
-Le coach n'est pas responsable des dommages résultant du non-respect des consignes, d'une information de santé inexacte ou d'une pratique hors des séances encadrées. Assurance responsabilité civile professionnelle : *assureur et numéro de contrat à compléter*.
+Le coach n'est pas responsable des dommages résultant du non-respect des consignes, d'une information de santé inexacte ou d'une pratique hors des séances encadrées. Assurance responsabilité civile professionnelle : Pacifica (Crédit Agricole Assurances), contrat Multirisque Professionnelle, activité « Enseignement de disciplines sportives et d'activités de loisirs » (numéro de contrat inséré dans le contrat envoyé au client ; couverture du coaching à distance à confirmer par écrit auprès de l'assureur).
 
 ### 13. Médiation et litiges
 
@@ -96,11 +96,26 @@ Réclamation écrite d'abord auprès du coach. À défaut de réponse satisfaisa
 
 ---
 
-## Ce que Marien doit fournir pour finaliser
+## Annexe : questionnaire de santé (à signer avant le démarrage)
 
-1. SIRET, adresse professionnelle, e-mail de contact, régime de TVA.
-2. Moyen d'encaissement des 1 500 € ou 3 × 520 € (virement, Stripe, autre).
-3. Assureur RC pro et numéro de contrat.
-4. Médiateur de la consommation choisi (plusieurs médiateurs agréés acceptent les micro-entrepreneurs pour quelques dizaines d'euros par an ; liste sur economie.gouv.fr).
-5. Choix : certificat médical exigé, ou questionnaire de santé signé suffisant.
-6. Où et comment le contrat est signé : PDF envoyé par e-mail et renvoyé signé, ou outil de signature. Le connecteur Docusign existe dans l'environnement mais n'est pas autorisé.
+Répondre par oui ou non. Une seule réponse « oui » : certificat médical de non-contre-indication demandé avant de commencer.
+
+1. Un médecin t'a-t-il déjà dit que tu avais un problème cardiaque, ou que tu ne devais pratiquer une activité physique que sous surveillance médicale ?
+2. As-tu ressenti une douleur dans la poitrine, au repos ou à l'effort, au cours des 12 derniers mois ?
+3. As-tu eu un malaise, une perte de connaissance ou des vertiges au cours des 12 derniers mois ?
+4. As-tu une douleur articulaire, osseuse ou musculaire (dos, genou, épaule…) qui s'aggrave à l'effort ?
+5. Prends-tu un traitement régulier, ou as-tu une maladie chronique (diabète, hypertension, asthme, autre) ?
+6. Es-tu enceinte, ou as-tu accouché depuis moins de 6 mois ?
+7. Un médecin t'a-t-il déconseillé la pratique sportive pour une raison quelconque ?
+
+« Je certifie l'exactitude de mes réponses et m'engage à signaler tout changement de mon état de santé. » Date, signature.
+
+## Ce qui reste à faire pour finaliser
+
+1. ~~SIRET, régime de TVA~~ Vérifiés le 06/09 sur le certificat SIRENE. Adresse et e-mail : à insérer dans le contrat envoyé, hors dépôt. Point à confirmer : l'adresse du certificat SIRENE (2021) diffère de celle du contrat d'assurance (2025) ; si Marien a déménagé, la modification d'adresse se déclare sur le guichet unique des formalités d'entreprises.
+2. ~~Moyen d'encaissement~~ Virement (décision du 06/09).
+3. ~~Assureur RC pro~~ Pacifica, Multirisque Professionnelle « Initiale Pros sans locaux », RC pro et protection juridique. **Deux points à régler avec l'assureur** : le chiffre d'affaires déclaré à la souscription (tranche 20 001 à 30 000 €) est inférieur au CA réel 2026 (≈ 35 000 € en présentiel, plus l'offre en ligne à venir), et la couverture du coaching à distance en visio doit être confirmée par écrit. Une déclaration inexacte peut réduire l'indemnisation (Code des assurances, article L113-9).
+4. Médiateur de la consommation : à choisir (liste sur economie.gouv.fr ; adhésion annuelle de quelques dizaines d'euros pour un micro-entrepreneur).
+5. ~~Certificat ou questionnaire~~ Recommandation : questionnaire de santé signé (annexe), certificat seulement si une réponse « oui ». À valider par Marien.
+6. Signature : outil de signature électronique simple (Docusign ou Yousign), ou PDF renvoyé signé par e-mail. Décision de Marien.
+7. Relecture juridique : la protection juridique du contrat Pacifica (plafond 50 000 € par litige) inclut en général un service d'information juridique par téléphone. Appeler le numéro de gestion du contrat et demander une relecture des CGV : déjà payé.

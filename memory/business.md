@@ -6,7 +6,8 @@ Mise à jour : 2026-09-06. Sources : audit Phase 0, réponses de Marien du 06/09
 
 - Marque : **Coach Neiram**. Coach : Marien Pelissier. Clermont-Ferrand (63).
 - Qualifications : DEUST Métiers de la Forme, préparateur mental. Formation en nutrition sportive suivie (à confirmer : diplôme obtenu ou en cours).
-- Statut juridique : micro-entreprise probable (cotisations ≈ 25 % du brut dans le Sheet CA). À confirmer.
+- Statut juridique : entrepreneur individuel (micro-entrepreneur), immatriculé au SIRENE le 30/11/2021, code APE 9609Z (certificat fourni le 06/09 ; identifiants et adresse hors dépôt). Compte pro Crédit Agricole Centre France, encaissement par virement.
+- Assurance : Multirisque Professionnelle Pacifica « Initiale Pros sans locaux » (RC pro + protection juridique 50 000 €/litige), signée le 21/10/2025, activité « Enseignement de disciplines sportives ». CA déclaré à la souscription 20 001 à 30 000 €, inférieur au réel : à mettre à jour. Couverture du coaching à distance à confirmer par écrit.
 - Ancienneté : environ 5 ans de coaching présentiel (post de lancement d'août 2026).
 
 ## Deux pôles
