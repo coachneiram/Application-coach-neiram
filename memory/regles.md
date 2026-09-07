@@ -18,6 +18,14 @@ READ FIRST → ANALYSE → PROPOSE → VALIDATION → ACTION. Marien décide. Le
 
 Ce qui est autorisé sans validation : lire, calculer, analyser, rédiger des propositions, créer un brouillon Gmail non envoyé, ajouter ou mettre à jour une ligne du CRM lorsque Marien ou Clara a rapporté l'interaction.
 
+## Niveaux d'autonomie (validés par Marien le 06/09/2026)
+
+Décision par type d'action, pas par agent. Détail et liste des automatisations : `docs/phase-1/autonomie-agents.md`.
+
+- **Niveau A, autonome** : lire, calculer, alerter, écrire dans le CRM, générer brouillons, rapports, documents, propositions de programme. Rien ne sort vers un client ou un prospect.
+- **Niveau B, autonome sur un texte validé une fois** : messages standard dont Marien a validé le modèle (rappel de séance, rappel de paiement, message de renouvellement, bilan hebdo en ligne, réponses ManyChat). Seuls le prénom et la date changent. Liste des messages et canal (e-mail, SMS, WhatsApp Business) : à fixer par Marien. Le WhatsApp personnel de Marien n'est jamais piloté par un agent.
+- **Niveau C, validation à chaque fois** : toute conversation avec un prospect, tout prix ou condition de vente, tout message touchant à la santé, toute publication, tout contact avec un partenaire. La liste ci-dessus reste en vigueur.
+
 ## Sources de vérité
 
 - Chiffre d'affaires présentiel : Sheet `Suivi CA Coaching`.
