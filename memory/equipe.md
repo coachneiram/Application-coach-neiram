@@ -5,7 +5,7 @@ Mise à jour : 2026-09-06.
 | Personne | Rôle | Ce qu'on sait | À confirmer |
 |---|---|---|---|
 | Marien | Coach, décideur | Fait tout aujourd'hui | Semaine type détaillée |
-| Clara | Setteuse / closeuse | Nommée par Marien le 06/09 | Périmètre exact (setting, closing, les deux), canaux qu'elle opère (DM Instagram de Marien, WhatsApp, appels), outils, rémunération, horaires, ce qu'elle attend de Marien, accès au CRM |
+| Clara | Setteuse / closeuse | Nommée par Marien le 06/09. Aura l'accès Calendly (Marien, 06/09) : c'est elle qui cale les appels découverte | Périmètre exact (setting, closing, les deux), canaux qu'elle opère (DM Instagram de Marien, WhatsApp, appels), outils, rémunération, horaires, ce qu'elle attend de Marien, accès au CRM |
 | Sacha | Coach UpTrainer | Valide avatar, offre, VSL, pubs | Prochaine échéance |
 | Coachs Fitness Park (Justin, Guillaume, Kevin) et commerciaux | Attribution des bilans aux nouveaux abonnés | Sheet « Bilan coach » partagé par la salle | Règle de traitement des bilans, taux bilan → client |
 
