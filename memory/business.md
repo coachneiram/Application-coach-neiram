@@ -65,5 +65,5 @@ Mis de côté (décision du 06/09) : offre golfeurs « Tenir la Carte ». Docume
 | Calendly | Appels découverte | Connecteur (lecture) |
 | Gmail, Google Calendar | Communication, agenda | Connecteurs |
 | UpTrainerOS | Incubateur : avatar, offre, VSL, pubs, recrutement setter/closer | Connecteur (contexte, documents, parcours) |
-| WhatsApp Business (appli, précisé par Marien le 06/09), relié à Meta Business Suite, Instagram et Facebook | Communication clients | Aucun connecteur. Automatisation possible seulement via l'API WhatsApp Business (ManyChat, mode coexistence à vérifier), modèles approuvés par Meta et payants hors 24 h. Non prioritaire. En attendant : réponses rapides de l'appli avec les messages de niveau B |
+| WhatsApp Business (appli, précisé par Marien le 06/09), relié à Meta Business Suite, Instagram et Facebook | Communication clients | Aucun connecteur. Automatisation possible seulement via l'API WhatsApp Business (ManyChat, mode coexistence à vérifier), modèles approuvés par Meta et payants hors 24 h. Non prioritaire. Agent IA Meta Business activé dans l'appli le 06/09 : à brider au tri (voir journal). Réponses rapides de l'appli pour les messages de niveau B |
 | CapCut, Canva | Production de contenu | Canva : connecteur disponible |
