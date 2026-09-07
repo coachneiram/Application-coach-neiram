@@ -1,6 +1,6 @@
 # Tunnel ManyChat → Instagram → Calendly → CRM
 
-Rédigé le 2026-09-06 (agent Acquisition + Ventes). Statut : **messages validés par Marien le 06/09**, leads en ligne assignés à Marien jusqu'à confirmation du périmètre de Clara. Rien n'est en ligne tant que Marien n'a pas créé le compte ManyChat et collé les scénarios.
+Rédigé le 2026-09-06 (agent Acquisition + Ventes). **En pause depuis le 06/09, décision de Marien : à reprendre quand le contenu génère des réponses.** Statut : **messages validés par Marien le 06/09**, leads en ligne assignés à Marien jusqu'à confirmation du périmètre de Clara. Rien n'est en ligne tant que Marien n'a pas créé le compte ManyChat et collé les scénarios.
 
 ## 1. Ce que fait ce tunnel, et ce qu'il ne fait pas
 
