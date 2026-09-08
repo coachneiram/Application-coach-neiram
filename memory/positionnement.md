@@ -12,7 +12,7 @@ Mise à jour : 2026-09-06. Sources : site, Facebook, YouTube, docs de lancement,
 - Suivi humain qui tient dans le temps, par opposition aux applis, PDF et vidéos YouTube faits seul (angle 4 du doc ADS).
 - Double casquette : coach sportif diplômé et préparateur mental.
 - Pédagogie « je démonte un mythe du fitness, preuves à l'appui ».
-- Lui-même jeune papa (à confirmer si utilisé publiquement).
+- Lui-même papa (confirmé par Marien le 08/09/2026, utilisable publiquement : bio, lead magnet, contenus).
 
 ## Ton
 
