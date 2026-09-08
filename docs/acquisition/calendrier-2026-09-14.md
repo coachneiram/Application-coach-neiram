@@ -4,7 +4,7 @@ Rédigé le 08/09/2026 (agent Acquisition). Priorité de la période : créer du
 
 Sources réutilisées telles quelles : `Pack_lancement_chaîne.md` (Drive, 14 scripts « 1 mythe par jour »), avatars et objections validés (`memory/avatars.md`, `memory/offres.md`). **Correction appliquée** : les scripts J6 et J8 du pack renvoient vers « coaching en ligne 130 €/mois », prix caduc depuis la hausse d'août (`memory/offres.md`). Ils ne sont pas utilisés cette quinzaine ; à corriger avant réemploi (semaines 3-4).
 
-Publication : cross-post identique YouTube Shorts + Reels + TikTok, sans watermark. Heures recalées le 08/09 sur l'agenda de coaching de Marien (lecture Google Calendar) : chaque publication laisse au moins 45 minutes libres derrière elle pour répondre aux commentaires sous 30 minutes. Sept horaires ont bougé par rapport aux créneaux théoriques 12h / 17h30. Un CTA par contenu vers un seul produit, jamais « abonne-toi ». Story chaque jour de publication. À vérifier par Marien : les journées du 16/09, 23/09 et 27/09 portent un événement « journée entière » dans l'agenda.
+Publication : cross-post identique YouTube Shorts + Reels + TikTok, sans watermark. Heures recalées le 08/09 sur l'agenda de coaching de Marien (lecture Google Calendar) : chaque publication laisse au moins 45 minutes libres derrière elle pour répondre aux commentaires sous 30 minutes. Sept horaires ont bougé par rapport aux créneaux théoriques 12h / 17h30. Un CTA par contenu vers un seul produit, jamais « abonne-toi ». Story chaque jour de publication. Les événements « journée entière » des 16, 23 et 27/09 sont sans effet (Marien, 08/09).
 
 ## Semaine 1 — 14 au 20 septembre
 

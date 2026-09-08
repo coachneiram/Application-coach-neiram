@@ -17,7 +17,7 @@ Mise à jour : 2026-09-06. Sources : site, Facebook, YouTube, docs de lancement,
 ## Ton
 
 - Tutoiement pour le contenu public (Reels, publicités, posts). Direct, concret, sans jargon de salle (séries, charges, hypertrophie) face aux débutants et aux papas.
-- Règle tu/vous en message direct (Marien, 08/09/2026) : **vouvoiement pour un prospect** (statuts Nouveau à Proposition/Relance dans le CRM, tant qu'il n'a pas signé), **tutoiement dès qu'il devient client**, nouveau comme ancien. Le message passe au tutoiement au moment où le statut CRM passe à Client.
+- Règle tu/vous en message direct (Marien, 08/09/2026, précisée le soir même) : **tutoiement pour un prospect qui arrive par Instagram** (commentaire ou DM après un Short en tutoiement) ; **vouvoiement pour un prospect rencontré en salle** que Marien a vouvoyé en face à face (exemple : Carole), jusqu'à ce qu'il devienne client ; **tutoiement pour tout client**, nouveau comme ancien.
 - « Pas de bullshit, pas de méthode miracle. »
 - Encourageant sans flatterie. Parle comme à un client, pas comme un présentateur.
 - Les CTA renvoient vers un produit précis, jamais « abonne-toi ».
