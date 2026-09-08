@@ -110,9 +110,9 @@ Elle existe : document natif UpTrainer, statut « draft », version 18, finalis�
 
 **Elle confirme aussi le conseil d'Alberich** : ni prix ni garantie n'y figurent, seulement le mécanisme et l'histoire du client au judo (déjà confirmé, accord obtenu). Le détail chiffré (prix, garantie, contenu précis) reste donc hors VSL — probablement pour l'appel de bilan de créneau lui-même.
 
-**Une divergence à signaler à Marien, pas à trancher ici** : la VSL dit « j'en accompagne vingt en ce moment », alors que `memory/business.md` documente 16 clients individuels actifs début septembre (source Sheet CA). Écart de 4. Soit le chiffre de la VSL est arrondi ou inclut les cours collectifs, soit le Sheet CA a besoin d'une mise à jour, soit la VSL a été écrite avant un changement. Les deux valeurs sont signalées ; Marien tranche laquelle utiliser en publicité.
+**Écart 16/20 résolu par Marien (08/09)** : 20 est le chiffre à utiliser, aligné sur la VSL. `memory/business.md` mis à jour en conséquence ; le Sheet CA (16) reste la source pour le calcul du chiffre d'affaires, 20 devient la source pour tout chiffre de clients cité publiquement.
 
-**Ce qui reste ouvert** : la VSL est un script et un jeu de diapositives (deck, thème « braise »), donc un format vidéo avec voix off et texte à l'écran, pas encore une page web. Aucun document de type « page de renvoi » ou « landing page VSL » n'apparaît dans l'inventaire UpTrainer. Reste à savoir où cette VSL sera hébergée pour que les créas y renvoient (page à créer sur Netlify, page UpTrainer, ou autre) : à demander à Marien ou directement à Alberich.
+**Ce qui reste ouvert : l'hébergement de la VSL.** Marien pense que c'est UpTrainer qui héberge la page (« je crois »), sans certitude. Je ne trouve aucun document de type « page de renvoi » dans l'inventaire UpTrainer (`uptrainer_list_documents` ne renvoie que le script de la VSL, pas de page publiée). Le module « Créer la page VSL » existe dans les parcours UpTrainer mais rien n'indique qu'il a été lancé pour ce compte. **À vérifier avant le tournage** : ouvrir le parcours « Créer la page VSL » dans UpTrainer pour voir s'il y a déjà une page et une URL, ou demander directement à Alberich dans leur discussion en cours (plus rapide que le brouillon Gmail, qu'ils ont déjà en grande partie doublé en direct).
 
 ## Ce que les livrables ont corrigé chez nous
 

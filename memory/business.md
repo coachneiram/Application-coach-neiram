@@ -34,7 +34,7 @@ Mis de côté (décision du 06/09) : offre golfeurs « Tenir la Carte ». Docume
 | Septembre | en cours | 400 € | 18 lignes dont 2 cours collectifs |
 
 - Moyenne janvier-août : ≈ 2 900 €/mois brut. Plateau.
-- Clients actifs début septembre : 16 individuels + cours collectifs (Pilates, associations Temps Danse et Prompsat, cours co Fitness Park). **Écart à trancher (08/09)** : la VSL finalisée dit « j'en accompagne vingt en ce moment ». Deux sources, deux valeurs (16 vs 20) : à vérifier avec Marien avant tout usage en publicité.
+- Clients actifs début septembre : 16 individuels dans le Sheet CA + cours collectifs (Pilates, associations Temps Danse et Prompsat, cours co Fitness Park). **Chiffre à utiliser en publicité et en VSL : 20** (Marien, 08/09/2026 — confirme le chiffre de la VSL plutôt que celui du Sheet CA). L'écart avec le Sheet CA (16) n'est pas expliqué ; le Sheet reste la source pour le calcul du CA, 20 est la source pour le nombre de clients cité publiquement.
 - Panier moyen par ligne : ≈ 165-185 €/mois.
 - Heures de coaching présentiel : 20 à 35 h/semaine (déclaré). CA brut par heure de coaching : ≈ 20 à 32 €/h avant loyer et URSSAF (estimation).
 - Reprogrammation : par blocs de 4 semaines, temps proportionnel au nombre de programmes.
