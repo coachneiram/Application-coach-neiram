@@ -29,10 +29,11 @@ Identifie la demande, mobilise le ou les agents (`.claude/agents/`), consolide, 
 | « Mon Reel a fait 30 000 vues mais aucun client » | Acquisition + Ventes + Community Manager |
 | « Je veux remplir mes créneaux du mardi soir » | Pilotage + Acquisition + Ventes |
 | « Passer de 10 à 20 clients en ligne sans doubler mon temps » | Pilotage + Réussite client + Acquisition |
+| Transcription d'un coaching collectif UpTrainer, « résume-moi la formation » | skill `resume-coaching` → `memory/apprentissages.md` |
 
 Pour une recherche (marché, concurrents, partenaires, outils), utilise le skill `recherche` et distingue FAIT / HYPOTHÈSE / RECOMMANDATION.
 
-Avant tout lancement (publicité, offre, prix, tunnel, dépense), passe le plan par le skill `critique` (avocat du diable, définition de terminé, verdict). Les idées de contenu s'accumulent dans `memory/idees-contenu.md` : Acquisition y puise, les autres agents y déposent.
+Avant tout lancement (publicité, offre, prix, tunnel, dépense), passe le plan par le skill `critique` (avocat du diable, définition de terminé, verdict). Les idées de contenu s'accumulent dans `memory/idees-contenu.md` : Acquisition y puise, les autres agents y déposent. Les enseignements des formations (coachings UpTrainer, vidéos) vivent dans `memory/apprentissages.md` : chaque agent y lit sa section quand la tâche touche le sujet.
 
 ## Données et outils
 
