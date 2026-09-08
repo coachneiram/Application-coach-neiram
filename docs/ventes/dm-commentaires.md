@@ -26,7 +26,7 @@ Le lead magnet est livré dans le même message que la question (chapitre 14 de 
 
 Il choisit un des trois freins. Réponse en trois temps : reformuler, donner une vraie piste utilisable sans moi, poser la question de qualification.
 
-- Temps : « Le temps, c'est le frein n°1 des papas que je suis. Ce qui marche : une seule heure fixe par semaine, connue de toute la maison, plus deux séances de 20 minutes chez toi. Tu as une salle près de chez toi ou tu serais plutôt à la maison ? »
+- Temps : « Le temps, c'est le frein n°1 des papas que je suis. Ce qui marche : trois créneaux de trente minutes, bloqués dans l'agenda comme des rendez-vous de boulot, chez toi ou au bureau. Une heure trente sur ta semaine. Tu vois plutôt ça sur des pauses déjeuner, un jour de télétravail, ou le week-end ? »
 - Énergie : « Le soir, l'énergie n'est jamais là, c'est normal : la séance se place avant que la journée soit finie, pas après. Tu es plutôt matin, pause déjeuner, ou fin d'après-midi ? »
 - Par quoi commencer : « Commencer sans plan, c'est ce qui fait arrêter au bout de trois semaines. Je peux t'indiquer un point de départ. Tu as déjà fait de la salle avant les enfants, ou tu pars de zéro ? »
 

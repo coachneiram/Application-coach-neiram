@@ -28,13 +28,13 @@ Textes fournis par Marien le 08/09. Archivés tels quels dans `docs/acquisition/
 
 ### OBJECTIONS
 
-**1. La garantie de la créa 1 contredit les CGV signées et n'est pas bornée.**
-La créa dit : « Si au bout de six mois t'as tenu tes créneaux sans atteindre tes objectifs, je continue gratuitement jusqu'à ce que ce soit fait. » L'article 9 des CGV du Créneau Protégé dit l'inverse : obligation de moyens, aucun résultat garanti. Ni « tes objectifs » ni « jusqu'à ce que ce soit fait » ne sont définis : un client peut réclamer un accompagnement illimité, et une publicité qui promet un résultat non garanti au contrat est une pratique commerciale trompeuse. Gravité maximale : c'est le seul point qui peut coûter de l'argent et la réputation en même temps.
-*Falsifiable par* : montrer une version des CGV où la garantie figure, bornée dans le temps et avec des critères mesurables. Elle n'existe pas au 08/09.
+**1. La créa 1 déforme une garantie qui existe, et cette garantie n'est pas au contrat. RÉVISÉE le 08/09 après lecture des livrables.**
+La créa dit : « je continue gratuitement jusqu'à ce que ce soit fait », donc un engagement illimité sur un objectif non défini. La vraie garantie, écrite dans le PDF de bienvenue remis au client, est bornée et mesurable : huit semaines d'accompagnement gratuit, si 70 % des séances sont pointées sur 26 semaines, au moins 20 bilans du dimanche envoyés sur 26, et les trois objectifs de capacité cosignés en semaine 1. La garantie est donc bonne ; c'est la publicité qui la rend dangereuse en la transformant en promesse sans fin. Reste un vrai problème : elle ne figure pas dans les CGV, dont l'article 9 pose une obligation de moyens sans garantie de résultat. Un client peut se prévaloir de la garantie du PDF contre un contrat qui la contredit.
+*Corrigé par* : écrire dans la créa la garantie réelle avec ses conditions, et ajouter un article « garantie » aux CGV reprenant mot pour mot celle du PDF de bienvenue.
 
-**2. L'offre décrite dans les pubs n'est pas l'offre vendue.**
-Les créas promettent « trois séances de 35 minutes, sans salle, sans matériel ». `memory/offres.md` décrit le Créneau Protégé comme une séance individuelle en visio, un programme sur mesure, un suivi nutrition, la correction technique par vidéo et l'app client. Le lead magnet et les scripts papa validés aujourd'hui parlent d'une heure fixe par semaine. Trois formulations différentes circulent pour le même produit. Un prospect qui arrive en appel avec « 3 × 35 min sans matériel » en tête et découvre autre chose se rétracte ou négocie.
-*Falsifiable par* : une fiche d'offre unique validée par Marien, à laquelle pubs, lead magnet, scripts et CGV renvoient tous. À produire avant le tournage.
+**2. Les pubs sous-vendent l'offre. RÉVISÉE le 08/09 après lecture des livrables.**
+Le format annoncé était juste : trois séances de 30 à 35 minutes sans salle ni matériel, c'est bien le pilier 1. L'objection portait à faux sur ce point, et c'est le lead magnet et le script 1 qui étaient décalés en parlant d'une heure par semaine ; ils ont été corrigés le 08/09. Ce qui reste : les créas ne mentionnent ni les 14 visios individuelles, ni le suivi WhatsApp quotidien, ni l'application avec le pointage et le bilan du dimanche, ni l'alerte automatique à deux créneaux manqués. C'est précisément ce qui distingue une offre à 1 500 € d'un programme PDF à 29 €, et c'est absent des trois créas. Le prospect qui arrive au bilan de créneau ne sait pas ce qu'il achète.
+*Corrigé par* : ajouter au closing d'au moins une créa une phrase sur le suivi humain, par exemple le fait que Marien écrit le premier dès deux créneaux manqués.
 
 **3. Deux chiffres publicitaires ne sont pas sourcés.**
 « Une centaine de personnes accompagnées en 5 ans » n'est nulle part dans la mémoire, qui documente 16 clients actifs et environ 5 ans d'activité. « 51 avis Google 5,0 » est vérifié. Le témoignage du père accompagné depuis quatre ans qui a repris le judo n'est pas confirmé, et son accord n'est pas documenté.
@@ -61,15 +61,23 @@ FA1 dit « les mecs qui reprennent le sport après 40 ans » alors que l'avatar 
 
 Le lancement a marché si, dans les 21 jours suivant la première diffusion : au moins 6 bilans de créneau tenus et au moins 1 vente du Créneau Protégé, pour un budget total inférieur ou égal à ce que Marien fixe. Sinon, couper les créas et revenir au commentaire organique. Sans budget ni coût cible par rendez-vous fixés à l'avance, ce seuil est indicatif : il doit être arrêté avec Marien avant la première dépense.
 
-### VERDICT : GO SOUS CONDITIONS
+### VERDICT : GO SOUS CONDITIONS (révisé le 08/09, après lecture des livrables)
 
 Conditions, dans l'ordre :
 
-1. Retirer ou borner la garantie de la créa 1, et la faire figurer dans les CGV si elle est conservée. Bloquant.
-2. Produire une fiche d'offre unique (contenu réel, durée et fréquence des séances, ce qui est inclus) et aligner pubs, lead magnet, scripts et CGV dessus. Bloquant.
-3. Vérifier ou retirer « une centaine de personnes accompagnées », et obtenir l'accord écrit pour tout témoignage nommé. Bloquant.
-4. Fixer un budget mensuel et un coût cible par bilan de créneau avant la première dépense.
-5. Corriger « après 40 ans » et arbitrer les hooks H01/H02 au regard de l'angle réservé.
+1. Réécrire la garantie de la créa 1 avec ses conditions réelles (8 semaines gratuites, 70 % de séances pointées, 20 bilans sur 26, objectifs cosignés), et ajouter un article « garantie » aux CGV. Bloquant.
+2. Vérifier ou retirer « une centaine de personnes accompagnées », et obtenir l'accord écrit pour le témoignage du client qui a repris le judo. Bloquant.
+3. Fixer un budget mensuel et un coût cible par bilan de créneau avant la première dépense.
+4. Corriger « après 40 ans » vers l'avatar papa, et réserver H01 et H02 au retargeting comme le prévoit le document ADS de Marien.
+5. Ajouter le suivi humain dans au moins un closing : 14 visios, WhatsApp, et le coach qui écrit le premier dès deux créneaux manqués.
 6. Tester une follow ad avec « commente PAPA » face à « abonne-toi ».
 
-Les créas 2, 3 et clean (hook H03) sont tournables dès que les conditions 2, 3 et 5 sont levées. La créa 1 attend la condition 1.
+Les créas 2, 3 et clean (hook H03) sont tournables dès que les conditions 2 et 4 sont levées. La créa 1 attend la condition 1. La condition portant sur le contenu de l'offre est levée : les livrables du 08/09 font foi et sont recopiés dans `memory/offres.md`.
+
+## Ce que les livrables ont corrigé chez nous
+
+Les PDF de Marien reçus le 08/09 (bienvenue, programme pilier 1, nutrition pilier 1) sont plus précis que ce que la mémoire contenait. Trois corrections en découlent, appliquées le jour même :
+
+- `memory/offres.md` porte désormais le contenu réel du Créneau Protégé, ses trois piliers, ses 14 visios, sa garantie et ses règles de sécurité.
+- Le lead magnet parlait d'une heure fixe par semaine : il parle maintenant de trois créneaux de 30 minutes, du format maintien de 15 minutes et des huit séances d'affilée.
+- Le script 1 (« Le sport ou ta famille ? ») a été réécrit sur le même format.

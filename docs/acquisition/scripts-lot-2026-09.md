@@ -51,13 +51,13 @@ Ordre de tournage conseillé : 1, 2, 3 (datés en premier), puis 4 et 5, puis le
 
 **HOOK écran :** « Le sport ou ta famille ? »
 
-**VO :** Tu te dis que si tu reprends le sport, c'est ta famille qui paie. Une heure de moins avec les enfants, une soirée de moins à la maison. Alors tu ne reprends pas. Regarde ta semaine : 168 heures. Une séance, c'est une heure. Ce n'est pas le temps qui manque. C'est que cette heure n'existe nulle part dans ton agenda, donc elle saute à la première sieste, au premier bain. Un créneau protégé, c'est une heure fixe, connue de tout le monde à la maison, la même chaque semaine. Personne n'y perd. Un papa qui rentre avec de l'énergie, tout le monde y gagne. Tu ne choisis pas entre le sport et ta famille. Tu choisis une heure.
+**VO :** Tu te dis que si tu reprends le sport, c'est ta famille qui paie. Du temps en moins avec les enfants, une soirée en moins à la maison. Alors tu ne reprends pas. Regarde ta semaine : 168 heures. Trois séances de trente minutes, ça fait une heure trente. Même pas un pour cent. Ce n'est pas le temps qui manque. C'est que ces trente minutes n'existent nulle part dans ton agenda, donc elles sautent à la première sieste, au premier bain. Un créneau protégé, c'est trois rendez-vous fixes dans la semaine, bloqués comme des rendez-vous de boulot. Une pause déjeuner, un jour de télétravail. Personne n'y perd. Un papa qui rentre avec de l'énergie, tout le monde y gagne. Tu ne choisis pas entre le sport et ta famille. Tu choisis trois créneaux.
 
 **CTA :** « Commente "PAPA", je t'envoie en DM ma méthode en 1 page pour caler ton heure sans négocier avec ta famille. » → Commente PAPA
 
 **Titre YouTube :** Sport ou famille ? Tu n'as pas à choisir, voilà pourquoi
 
-**Description :** Reprendre le sport ne prend rien à ta famille quand l'heure est fixée d'avance. Ce qui fait sauter tes séances, ce n'est pas le temps, c'est l'absence de créneau. https://coach-neiram.netlify.app #papa #reprisedusport #coaching
+**Description :** Reprendre le sport ne prend rien à ta famille quand les créneaux sont fixés d'avance. Ce qui fait sauter tes séances, ce n'est pas le temps, c'est l'absence de créneau. https://coach-neiram.netlify.app #papa #reprisedusport #coaching
 
 **Objectif :** TRAITER UNE OBJECTION
 
@@ -117,7 +117,7 @@ Ordre de tournage conseillé : 1, 2, 3 (datés en premier), puis 4 et 5, puis le
 
 **Titre YouTube :** Le Créneau Protégé : pour quel papa, et ce que ça change en 3 mois
 
-**Description :** Un accompagnement pour les papas qui reprennent et lâchent au bout de trois semaines. Heure fixe, programme sur mesure, correction vidéo, bilan hebdo. https://coach-neiram.netlify.app #papa #coachingenligne #reprisedusport
+**Description :** Un accompagnement pour les papas qui reprennent et lâchent au bout de trois semaines. Créneaux fixes, programme sur mesure, correction vidéo, bilan hebdo. https://coach-neiram.netlify.app #papa #coachingenligne #reprisedusport
 
 **Objectif :** CONVERTIR
 
@@ -474,6 +474,10 @@ Ordre de tournage conseillé : 1, 2, 3 (datés en premier), puis 4 et 5, puis le
 Les 5 scripts papa (1, 4, 5, 18, 21) demandent un **commentaire** « PAPA », plus un DM. Raison : le commentaire est public (il pousse le Short), il donne la liste exacte des personnes à contacter, et le DM entrant reste possible via la bio. Chaque CTA promet la même chose, la méthode en 1 page (`docs/acquisition/lead-magnet-papa.md`, validée le 08/09). Le PDF doit être prêt avant le tournage du script 1 (publication le 18/09).
 
 Les 16 scripts débutant gardent le lien en bio vers le Programme Débutant 29 € : décision de la quinzaine, à revoir à J+14 selon les ventes (`docs/acquisition/calendrier-2026-09-14.md`).
+
+## Alignement sur les livrables réels (08/09)
+
+Les livrables du Créneau Protégé fournis par Marien le 08/09 fixent le format : trois séances de 30 minutes par semaine au pilier 1, sans salle ni matériel, format maintien de 15 minutes les semaines difficiles, huit séances d'affilée comme objectif du premier mois. Le script 1 a été réécrit en conséquence (il parlait d'une heure par semaine). Tout script papa écrit à l'avenir reprend ces chiffres, pas d'autres.
 
 ## Points à vérifier par Marien avant enregistrement
 

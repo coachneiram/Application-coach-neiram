@@ -16,21 +16,21 @@ Pas de clic, pas de lien bio, pas « abonne-toi ». Le mot-code est le même par
 
 ## Contenu de la page (texte à mettre en forme)
 
-**Titre** : Le Créneau Protégé. Une heure par semaine qui ne saute jamais.
+**Titre** : Le Créneau Protégé. Trois rendez-vous par semaine qui ne sautent jamais.
 
-**Le principe (3 lignes)** : Ce n'est pas le temps qui te manque, c'est un créneau qui existe. Une séance « quand je pourrai » saute à la première sieste ratée. Une séance fixée, connue de toute la maison, tient.
+**Le principe (3 lignes)** : Ce n'est pas le temps qui te manque, c'est un créneau qui existe. Une séance « quand je pourrai » saute à la première sieste ratée. Une séance fixée, connue de toute la maison, tient. Trente minutes, trois fois par semaine, chez toi ou au bureau.
 
 **Les 4 étapes**
-1. **Choisis l'heure la plus défendable, pas la plus pratique.** Celle qui ne dépend ni du sommeil des enfants ni de la fatigue du soir. Pour la plupart des papas : samedi ou dimanche matin avant 9h, ou un midi de semaine.
-2. **Annonce-la une fois, à tout le monde.** Ta compagne ou ton compagnon, les enfants assez grands pour comprendre, ton agenda partagé. Une phrase : « Le samedi de 8h à 9h, je m'entraîne. » Pas de justification.
-3. **Protège-la comme un rendez-vous médical.** Elle se déplace, elle ne s'annule pas. Si elle saute, tu la replaces dans les 48 h, jamais « la semaine prochaine ».
-4. **Rends-la courte et suffisante.** Une heure, porte à porte. Trois exercices de base, pas plus. Le but des 4 premières semaines est que la séance ait lieu, pas qu'elle soit parfaite.
+1. **Choisis les moments les plus défendables, pas les plus pratiques.** Ceux qui ne dépendent ni du sommeil des enfants ni de la fatigue du soir. Pour la plupart des papas : une pause déjeuner, un jour de télétravail, le samedi matin avant 9h.
+2. **Bloque-les dans ton agenda, avec un intitulé neutre.** Trois rendez-vous récurrents, comme des rendez-vous professionnels. Personne n'a besoin de savoir ce que c'est. Annonce-le une fois à la maison, en une phrase, sans te justifier.
+3. **Protège-les comme des rendez-vous professionnels.** Personne ne demande son avis à un rendez-vous pro : c'est posé, tu y vas. Une séance se déplace, elle ne s'annule pas.
+4. **Prévois le format court des semaines difficiles.** Nuit blanche, enfant malade, semaine impossible : quinze minutes debout, sans matériel, et ça compte comme un créneau tenu. On descend l'exigence, on ne casse pas la chaîne.
 
-**Le test des 4 semaines** : 4 séances sur 4 = ton créneau est protégé, on peut construire dessus. 2 sur 4 ou moins = le créneau est mal placé, pas toi. Change l'heure, pas l'objectif.
+**Le test des 4 semaines** : 8 séances tenues d'affilée sur les 4 premières semaines, et ton créneau est protégé : on peut construire dessus. Moins de la moitié, et ce sont les créneaux qui sont mal placés, pas toi. Change les horaires, pas l'objectif.
 
-**Signature** : Coach Neiram, coach diplômé, Clermont-Ferrand et en ligne. 51 avis Google à 5,0. Si tu veux que je t'aide à placer le tien, réponds à ce message.
+**Signature** : Coach Neiram, coach diplômé, papa, Clermont-Ferrand et en ligne. 51 avis Google à 5,0. Si tu veux que je t'aide à placer les tiens, réponds à ce message.
 
-Aucun exercice détaillé, aucun programme, aucune promesse chiffrée de poids : le PDF ne remplace ni le Programme Maison ni l'accompagnement.
+Aucun exercice détaillé, aucun programme, aucune promesse chiffrée de poids : le PDF ne remplace ni le Programme Maison ni l'accompagnement. Chiffres alignés le 08/09 sur les livrables réels du Créneau Protégé (`memory/offres.md`) : trois séances de 30 minutes, format maintien de 15 minutes, huit séances d'affilée comme objectif du premier mois.
 
 ## Après l'envoi
 

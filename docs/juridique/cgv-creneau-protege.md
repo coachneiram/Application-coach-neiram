@@ -55,6 +55,14 @@ Fournir des informations exactes sur sa condition, respecter les consignes de s�
 
 Le coach est tenu d'une obligation de moyens. Aucun résultat physique ou esthétique n'est garanti : les progrès dépendent de l'assiduité et de la situation de chacun.
 
+### 9 bis. Garantie de prolongation (proposition du 08/09/2026, à valider par Marien)
+
+Texte proposé, repris des livrables remis au client, à insérer après l'article 9 :
+
+« Par exception à l'obligation de moyens rappelée à l'article 9, le coach s'engage à prolonger l'accompagnement de huit semaines, sans frais supplémentaires, si l'ensemble des conditions suivantes sont réunies au terme des vingt-six semaines : au moins 70 % des séances prévues ont été pointées dans l'application, une séance de maintien de quinze minutes comptant comme une séance réalisée ; au moins vingt bilans hebdomadaires sur vingt-six ont été transmis ; trois objectifs de capacité ont été formulés et cosignés par les deux parties au cours de la première semaine ; et aucun de ces trois objectifs n'est atteint à la date d'échéance. Cette prolongation constitue la seule contrepartie due à ce titre, à l'exclusion de tout remboursement. Elle ne s'applique pas en cas de résiliation anticipée, quelle qu'en soit la cause. »
+
+Motif : la garantie figure dans le document de bienvenue remis au client et sera reprise en publicité. Un engagement présenté au client sans base contractuelle expose le coach ; les CGV et les supports commerciaux doivent dire la même chose. Ce texte n'a pas été relu par un juriste.
+
 ### 10. Données personnelles
 
 Les données collectées (identité, contact, données de santé et de forme déclarées, journal d'entraînement) servent uniquement à l'accompagnement. Les données de santé sont traitées avec le consentement explicite du client, recueilli à la signature. Elles sont conservées pendant la durée du contrat puis trois ans, sauf demande de suppression. Hébergement : application client et fichiers du coach (*préciser les sous-traitants : Google, Cloudflare, à compléter*). Le client peut accéder à ses données, les corriger ou les faire supprimer en écrivant à l'adresse de contact.
