@@ -85,3 +85,24 @@ test("formaterCash : lisible, et explicite quand il n'y a rien", () => {
   assert.match(plein, /\[HAUTE\] renouvellement — Sabine \(C-001\)/);
   assert.match(plein, /ordres de grandeur/);
 });
+
+test("alerte données dégradées : tarif ou offre manquants faussent le potentiel", () => {
+  const r = opportunitesCash({
+    clients: [
+      { ID: "C-1", "Prénom": "Sans tarif", "Date fin": "20/09/2026", Offre: "Suivi hebdo", Statut: "Actif" },
+      { ID: "C-2", "Prénom": "Complet", "Tarif mensuel": "250", "Durée (mois)": "6", Offre: "Suivi hebdo", "Date fin": "20/09/2026", Statut: "Actif" }
+    ]
+  }, { aujourdhui: LE_8_SEPT });
+  const alerte = r.alertes.find((a) => a.type === "donnees-degradees");
+  assert.ok(alerte, "l'alerte existe");
+  assert.match(alerte.message, /1 sans tarif mensuel/);
+  assert.deepEqual(alerte.cibles, ["Sans tarif"]);
+  assert.ok(!r.alertes.some((a) => a.type === "donnees-degradees" && a.cibles.includes("Complet")));
+});
+
+test("aucune alerte de données dégradées quand tout est renseigné", () => {
+  const r = opportunitesCash({
+    clients: [{ ID: "C-1", "Prénom": "Complet", "Tarif mensuel": "250", "Durée (mois)": "6", Offre: "Suivi hebdo", "Date fin": "20/09/2026", Statut: "Actif" }]
+  }, { aujourdhui: LE_8_SEPT });
+  assert.equal(r.alertes.filter((a) => a.type === "donnees-degradees").length, 0);
+});

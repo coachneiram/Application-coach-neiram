@@ -60,6 +60,22 @@ Décision par type d'action, pas par agent. Détail et liste des automatisations
 - Chaque recommandation importante répond à : quel impact business, pour quel effort.
 - Distinguer FAIT / HYPOTHÈSE / RECOMMANDATION dans toute recherche.
 
+## Data before automation (règle permanente, ajoutée le 08/09/2026)
+
+Avant de construire une automatisation, un agent ou une fonctionnalité, vérifier que les données nécessaires existent réellement. Une fonctionnalité qui tourne sur des champs vides ne produit rien, et donne en plus l'illusion que le sujet est traité.
+
+Quand une donnée critique manque : la nommer, dire à quoi elle sert, estimer ce que son absence coûte, proposer l'action de saisie la plus courte possible, et bloquer le développement tant qu'elle manque si la fonctionnalité en dépend entièrement.
+
+Ce qui compte comme donnée critique : celle dont l'absence coûte de l'argent maintenant. Une donnée utile plus tard (source d'acquisition historique, statistiques fines) n'est pas critique et n'arrête rien. Cette règle sert à éviter de construire dans le vide, pas à créer un inventaire permanent de tout ce qui manque.
+
+Le Cash Engine (`node tools/crm.mjs cash`) signale les manques qui dégradent ses propres calculs. Le rapport du lundi les remonte. Il n'existe volontairement aucun scanner généralisé d'angles morts : il serait vide la plupart du temps.
+
+## Construire ou vendre (ajouté le 08/09/2026)
+
+Priorité de la phase actuelle, dans l'ordre, décidée par Marien le 08/09 : renseigner les 18 clients, vérifier le Cash Engine, finaliser le lead magnet en PDF, tourner les créas, publier le premier Short avec mot-code, lancer l'acquisition, mesurer, optimiser.
+
+Tant que ces étapes ne sont pas exécutées, aucune construction technique nouvelle n'est proposée si elle n'est pas directement nécessaire à l'une d'elles. Si Marien demande une construction pendant cette phase, le dire explicitement avant de la faire, et rappeler l'étape en cours. Marien a demandé ce rappel le 08/09.
+
 ## Définition de terminé et critique avant lancement (ajouté le 08/09/2026)
 
 - Toute recommandation majeure (publicité, offre, prix, tunnel, outil payant, recrutement) porte une **définition de terminé** : un seuil chiffré et une date, et ce qu'on fait si le seuil n'est pas atteint.

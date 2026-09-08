@@ -119,6 +119,7 @@ function opportunitesLeads(leads, aujourdhui) {
 function opportunitesClients(clients, aujourdhui, horizonJours) {
   const out = [];
   const sansDates = [];
+  const donneesDegradees = [];
 
   for (const c of clients) {
     if ((c.Statut || "").trim() !== "Actif") continue;
@@ -127,6 +128,8 @@ function opportunitesClients(clients, aujourdhui, horizonJours) {
     const duree = nombre(c["Durée (mois)"]) || DUREE_ENGAGEMENT_DEFAUT;
     const fin = finEngagement(c);
     const debut = lireDate(c["Date début"]);
+
+    if (!tarif || !String(c.Offre ?? "").trim()) donneesDegradees.push({ id: c.ID, cible: prenom, tarif: !!tarif, offre: !!String(c.Offre ?? "").trim() });
 
     if (!fin && !debut) { sansDates.push({ id: c.ID, cible: prenom }); continue; }
 
@@ -154,7 +157,7 @@ function opportunitesClients(clients, aujourdhui, horizonJours) {
       }));
     }
   }
-  return { opportunites: out, sansDates };
+  return { opportunites: out, sansDates, donneesDegradees };
 }
 
 /**
@@ -172,6 +175,19 @@ export function opportunitesCash({ leads = [], clients = [] } = {}, { aujourdhui
       type: "dates-engagement-manquantes",
       message: `${desClients.sansDates.length} client(s) actif(s) sans date de début ni date de fin : aucun renouvellement ne peut être anticipé pour eux.`,
       cibles: desClients.sansDates.map((c) => c.cible)
+    });
+  }
+  if (desClients.donneesDegradees.length) {
+    const sansTarif = desClients.donneesDegradees.filter((c) => !c.tarif);
+    const sansOffre = desClients.donneesDegradees.filter((c) => !c.offre);
+    const details = [
+      sansTarif.length ? `${sansTarif.length} sans tarif mensuel (potentiel estimé par défaut, donc faux)` : null,
+      sansOffre.length ? `${sansOffre.length} sans offre (on ne sait pas vers quoi les renouveler)` : null
+    ].filter(Boolean).join(" ; ");
+    alertes.push({
+      type: "donnees-degradees",
+      message: `Champs manquants qui faussent ce calcul : ${details}.`,
+      cibles: desClients.donneesDegradees.map((c) => c.cible)
     });
   }
   const sansSuite = leads.filter((l) => !STATUTS_CLOS.includes(l.statut || "Nouveau") && !lireDate(l.relance));
