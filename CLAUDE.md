@@ -32,6 +32,8 @@ Identifie la demande, mobilise le ou les agents (`.claude/agents/`), consolide, 
 
 Pour une recherche (marché, concurrents, partenaires, outils), utilise le skill `recherche` et distingue FAIT / HYPOTHÈSE / RECOMMANDATION.
 
+Avant tout lancement (publicité, offre, prix, tunnel, dépense), passe le plan par le skill `critique` (avocat du diable, définition de terminé, verdict). Les idées de contenu s'accumulent dans `memory/idees-contenu.md` : Acquisition y puise, les autres agents y déposent.
+
 ## Données et outils
 
 - Lecture des Sheets : connecteur Google Drive (`read_file_content`). Sauvegarde l'export dans `data/cache/` (ignoré par git) avant de lancer un outil.

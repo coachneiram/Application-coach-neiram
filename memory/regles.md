@@ -59,3 +59,9 @@ Décision par type d'action, pas par agent. Détail et liste des automatisations
 - Un agent qui manque d'une information demande à Marien plutôt que de supposer.
 - Chaque recommandation importante répond à : quel impact business, pour quel effort.
 - Distinguer FAIT / HYPOTHÈSE / RECOMMANDATION dans toute recherche.
+
+## Définition de terminé et critique avant lancement (ajouté le 08/09/2026)
+
+- Toute recommandation majeure (publicité, offre, prix, tunnel, outil payant, recrutement) porte une **définition de terminé** : un seuil chiffré et une date, et ce qu'on fait si le seuil n'est pas atteint.
+- Avant d'engager de l'argent ou du temps de coaching, le plan passe par le skill `critique` (avocat du diable). Le verdict est un avis, Marien décide.
+- Une tâche d'agent est terminée quand son livrable est produit, journalisé, et que la mémoire concernée est à jour. Pas avant.

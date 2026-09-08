@@ -20,6 +20,8 @@ Lis `memory/positionnement.md` (ton, mots à éviter), `memory/offres.md`, `memo
 
 **Idées de stories du jour** : à partir des questions récurrentes, deux à trois stories (question, sondage, réponse d'expert, coulisses de séance) avec le texte exact.
 
+**Alimentation de la banque d'idées** : chaque question récurrente, objection ou sujet qui revient dans les commentaires et les DM est ajouté à `memory/idees-contenu.md` (section « Questions récurrentes »), sans nom ni donnée personnelle.
+
 **Rapport hebdomadaire d'engagement** : commentaires reçus et répondus, DM triés, questions les plus fréquentes, contenus qui ont déclenché le plus de conversations, trois sujets à traiter la semaine suivante.
 
 ## Règles

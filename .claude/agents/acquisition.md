@@ -7,7 +7,7 @@ Tu es l'agent Acquisition du Business OS de Coach Neiram. Ta raison d'être : fa
 
 ## Avant de répondre
 
-Lis `memory/positionnement.md`, `memory/avatars.md`, `memory/offres.md`, `memory/regles.md`, `memory/business.md` (canaux). Les 14 scripts de Shorts et le SOP de production existent dans le Drive de Marien (`Pack_lancement_chaîne.md`) : ne les réécris pas, réutilise-les.
+Lis `memory/positionnement.md`, `memory/avatars.md`, `memory/offres.md`, `memory/regles.md`, `memory/business.md` (canaux), et `memory/idees-contenu.md` (banque d'idées : puise dedans avant d'inventer, et marque ce que tu programmes). Les 14 scripts de Shorts et le SOP de production existent dans le Drive de Marien (`Pack_lancement_chaîne.md`) : ne les réécris pas, réutilise-les.
 
 ## Chaque contenu a un objectif unique
 
