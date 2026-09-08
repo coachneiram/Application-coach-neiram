@@ -61,14 +61,22 @@ function opportunite({ type, cible, id, raison, potentiel, probabilite, effort, 
   return { type, cible, id, raison, potentiel: Math.round(potentiel), probabilite, effort, score, priorite: priorite(score), prochaineEtape };
 }
 
-/** Fin d'engagement d'un client : « Date fin » si présente, sinon « Date début » + « Durée (mois) ». */
+/**
+ * Fin d'engagement d'un client. Trois cas :
+ * - une date dans « Date fin », ou « Date début » + « Durée (mois) » → échéance réelle ;
+ * - un texte dans « Date fin » (« Reconduction mensuelle ») → engagement à tacite reconduction,
+ *   qui ne se renouvelle pas à une date : il n'y a pas d'échéance à relancer ;
+ * - rien → engagement inconnu.
+ */
 function finEngagement(client) {
-  const fin = lireDate(client["Date fin"]);
-  if (fin) return fin;
+  const brut = String(client["Date fin"] ?? "").trim();
+  const fin = lireDate(brut);
+  if (fin) return { type: "date", date: fin };
+  if (brut) return { type: "reconduction", libelle: brut };
   const debut = lireDate(client["Date début"]);
   const duree = nombre(client["Durée (mois)"]);
-  if (debut && duree) return ajouterMois(debut, duree);
-  return null;
+  if (debut && duree) return { type: "date", date: ajouterMois(debut, duree) };
+  return { type: "inconnu" };
 }
 
 function opportunitesLeads(leads, aujourdhui) {
@@ -126,20 +134,27 @@ function opportunitesClients(clients, aujourdhui, horizonJours) {
     const prenom = [c["Prénom"], c["Nom"]].filter(Boolean).join(" ").trim() || c.ID;
     const tarif = nombre(c["Tarif mensuel"]);
     const duree = nombre(c["Durée (mois)"]) || DUREE_ENGAGEMENT_DEFAUT;
-    const fin = finEngagement(c);
+    const engagement = finEngagement(c);
     const debut = lireDate(c["Date début"]);
+    const collectif = (c.Canal || "").trim() === "Collectif";
 
-    if (!tarif || !String(c.Offre ?? "").trim()) donneesDegradees.push({ id: c.ID, cible: prenom, tarif: !!tarif, offre: !!String(c.Offre ?? "").trim() });
+    if (!collectif && (!tarif || !String(c.Offre ?? "").trim())) {
+      donneesDegradees.push({ id: c.ID, cible: prenom, tarif: !!tarif, offre: !!String(c.Offre ?? "").trim() });
+    }
 
-    if (!fin && !debut) { sansDates.push({ id: c.ID, cible: prenom }); continue; }
+    // Un cours collectif n'a pas d'engagement individuel : ne pas le compter comme une donnée manquante.
+    if (engagement.type === "inconnu" && !debut) {
+      if (!collectif) sansDates.push({ id: c.ID, cible: prenom });
+      continue;
+    }
 
-    if (fin) {
-      const restant = joursEntre(aujourdhui, fin);
+    if (engagement.type === "date") {
+      const restant = joursEntre(aujourdhui, engagement.date);
       if (restant <= horizonJours) {
         out.push(opportunite({
           type: "renouvellement", cible: prenom, id: c.ID,
-          raison: restant >= 0 ? `engagement terminé dans ${restant} jours (${formaterDate(fin)})`
-            : `engagement échu depuis ${-restant} jours (${formaterDate(fin)})`,
+          raison: restant >= 0 ? `engagement terminé dans ${restant} jours (${formaterDate(engagement.date)})`
+            : `engagement échu depuis ${-restant} jours (${formaterDate(engagement.date)})`,
           potentiel: (tarif || VALEUR_CLIENT_DEFAUT / DUREE_ENGAGEMENT_DEFAUT) * duree,
           probabilite: PROBABILITE_RENOUVELLEMENT, effort: "faible",
           prochaineEtape: "message de renouvellement validé (docs/ventes/messages-niveau-b.md)"

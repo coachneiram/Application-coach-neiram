@@ -12,7 +12,19 @@ Mise à jour : 2026-09-06. Source : réponse de Marien du 06/09 (tarifs en vigue
 | Suivi mensuel | reconduction mensuelle | 210 €/mois | 1 séance + programme |
 | Suivi à distance | mensuel | 150 €/mois | programme + suivi, sans séance en salle. Question ouverte (06/09) : réservé aux clients locaux ou ouvert aux prospects en ligne qui refusent le Créneau Protégé ? |
 
-Historique : grille de juillet 2026 à 240 / 220 / 200 € (hebdo) et 170 € (mensuel). Hausse appliquée en août 2026. Clients anciens : à vérifier s'ils ont gardé l'ancien tarif.
+Historique : grille de juillet 2026 à 240 / 220 / 200 € (hebdo) et 170 € (mensuel). Hausse appliquée en août 2026.
+
+**Question résolue le 08/09/2026** (source : classeur « CRM Clients — complété », 18 clients renseignés). Les clients antérieurs à la hausse sont restés à l'ancien tarif. Écart mesuré, sans aucun nom :
+
+| Formule | Clients sous la grille actuelle | Écart mensuel cumulé |
+|---|---|---|
+| Suivi hebdomadaire | 6 (tarifs de 180 à 200 € contre 220 à 250 € aujourd'hui) | ≈ 210 € |
+| Suivi mensuel | 3 (100 à 150 € contre 210 €) | ≈ 230 € |
+| Domicile hors salle | 1 (≈ 25 €/séance, geste commercial de 2022 jamais révisé, le tarif horaire le plus bas du portefeuille) | ≈ 195 € pour atteindre 40 €/séance |
+
+Écart total du portefeuille : environ 440 à 635 €/mois, soit 5 000 à 7 600 €/an, sans un seul nouveau client. Aucune décision prise : un réalignement porte un risque de départ sur des clients fidèles, et certains tarifs sont des gestes assumés par Marien. Le moment naturel pour en parler est l'échéance d'engagement de chacun, pas une annonce groupée.
+
+**Vague de renouvellements décembre-janvier** : 7 engagements arrivent à échéance entre le 12/12/2026 et le 01/02/2027, dont 6 des clients sous l'ancienne grille. Environ 1 600 €/mois de facturation en jeu sur six semaines, en pleine période de fêtes. C'est la principale échéance commerciale du semestre, à préparer avant fin novembre.
 
 Cours collectifs et associations : Pilates (240 à 320 €/mois facturés), associations Temps Danse et Prompsat, cours collectifs Fitness Park. Tarifs unitaires non documentés.
 

@@ -106,3 +106,19 @@ test("aucune alerte de données dégradées quand tout est renseigné", () => {
   }, { aujourdhui: LE_8_SEPT });
   assert.equal(r.alertes.filter((a) => a.type === "donnees-degradees").length, 0);
 });
+
+test("reconduction tacite : « Date fin » en texte, aucune échéance à relancer", () => {
+  const r = opportunitesCash({
+    clients: [{ ID: "C-1", "Prénom": "Tacite", "Tarif mensuel": "110", "Date début": "01/05/2026", "Durée (mois)": "1", "Date fin": "Reconduction mensuelle", Offre: "Suivi mensuel", Canal: "Présentiel", Statut: "Actif" }]
+  }, { aujourdhui: LE_8_SEPT });
+  assert.equal(r.opportunites.filter((o) => o.type === "renouvellement").length, 0, "pas de faux renouvellement échu");
+  assert.equal(r.opportunites[0].type, "parrainage", "un client ancien reste une piste de parrainage");
+});
+
+test("cours collectif : ni échéance ni alerte de données manquantes", () => {
+  const r = opportunitesCash({
+    clients: [{ ID: "C-17", "Prénom": "Cours Co", Canal: "Collectif", "Tarif mensuel": "320", Statut: "Actif" }]
+  }, { aujourdhui: LE_8_SEPT });
+  assert.equal(r.opportunites.length, 0);
+  assert.equal(r.alertes.length, 0, "un cours collectif n'a pas d'engagement individuel");
+});
