@@ -5,7 +5,7 @@ Mise à jour : 2026-09-06. Sources : audit Phase 0, réponses de Marien du 06/09
 ## Identité
 
 - Marque : **Coach Neiram**. Coach : Marien Pelissier. Clermont-Ferrand (63).
-- Qualifications : DEUST Métiers de la Forme, préparateur mental. Formation en nutrition sportive suivie (à confirmer : diplôme obtenu ou en cours).
+- Qualifications : DEUST Métiers de la Forme, certification Pilates, préparateur mental (source : VSL finalisée le 06/09/2026, confirmée par Marien). Formation en nutrition sportive suivie (à confirmer : diplôme obtenu ou en cours).
 - Statut juridique : entrepreneur individuel (micro-entrepreneur), immatriculé au SIRENE le 30/11/2021, code APE 9609Z (certificat fourni le 06/09 ; identifiants et adresse hors dépôt). Compte pro Crédit Agricole Centre France, encaissement par virement.
 - Assurance : Multirisque Professionnelle Pacifica « Initiale Pros sans locaux » (RC pro + protection juridique 50 000 €/litige), signée le 21/10/2025, activité « Enseignement de disciplines sportives ». CA déclaré à la souscription 20 001 à 30 000 €, inférieur au réel : à mettre à jour. Couverture du coaching à distance à confirmer par écrit.
 - Ancienneté : environ 5 ans de coaching présentiel (post de lancement d'août 2026). **Environ 100 personnes accompagnées depuis 2021** (Marien, 08/09/2026) : chiffre utilisable en publicité et en preuve sociale, avec les 51 avis Google à 5,0.
@@ -34,7 +34,7 @@ Mis de côté (décision du 06/09) : offre golfeurs « Tenir la Carte ». Docume
 | Septembre | en cours | 400 € | 18 lignes dont 2 cours collectifs |
 
 - Moyenne janvier-août : ≈ 2 900 €/mois brut. Plateau.
-- Clients actifs début septembre : 16 individuels + cours collectifs (Pilates, associations Temps Danse et Prompsat, cours co Fitness Park).
+- Clients actifs début septembre : 16 individuels + cours collectifs (Pilates, associations Temps Danse et Prompsat, cours co Fitness Park). **Écart à trancher (08/09)** : la VSL finalisée dit « j'en accompagne vingt en ce moment ». Deux sources, deux valeurs (16 vs 20) : à vérifier avec Marien avant tout usage en publicité.
 - Panier moyen par ligne : ≈ 165-185 €/mois.
 - Heures de coaching présentiel : 20 à 35 h/semaine (déclaré). CA brut par heure de coaching : ≈ 20 à 32 €/h avant loyer et URSSAF (estimation).
 - Reprogrammation : par blocs de 4 semaines, temps proportionnel au nombre de programmes.

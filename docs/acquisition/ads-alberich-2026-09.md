@@ -102,9 +102,17 @@ Retour du copywriter, point par point sur le message envoyé :
 - **Structure de campagne : suivre l'avis d'Alberich**, qui a l'expérience de gestion de comptes publicitaires que nous n'avons pas. Un seul ensemble de publicités avec les créas disponibles (créas 2, 3, clean), Meta répartit le budget automatiquement. Nuance à garder malgré tout : 10 €/jour reste un budget bas, la phase d'apprentissage sera lente quel que soit le nombre de créas ; la durée de test de 4 semaines sans y toucher reste valable.
 - **Follow ads : reportées à une seconde phase, purpose clarifiée.** Ciblage large par âge plutôt que par statut parental, objectif = constituer un réservoir de qualifiés que Marien ou Clara contactent ensuite en DM (« setting »). Cela suppose une capacité de prospection DM qui n'existe pas encore à ce stade (Marien seul, avant l'entrée de Clara sur ce canal). Reste HYPOTHÈSE : que ce réservoir soit plus rentable que le mot-code organique, non testé à ce jour.
 
-### Question ouverte pour Alberich (à poser avant le tournage)
+### VSL retrouvée et lue (08/09, après relance de Marien)
 
-Où les créas envoient-elles le prospect ? « Réserve ton bilan de créneau » suppose un lien — Calendly directement, une page de renvoi, ou une VSL déjà existante ? Alberich mentionne la VSL comme l'endroit où le détail de l'offre doit apparaître : je n'ai pas trouvé de VSL terminée pour Coach Neiram dans les documents disponibles (`mcp__UpTrainerOS__uptrainer_list_workflows` liste les modules « Réalisation de la VSL » et « Créer la page VSL », sans indiquer qu'ils sont terminés pour ce compte). Si la VSL n'existe pas encore, le lien des créas doit être précisé avant le tournage : Calendly direct, ou une page produit existante (`coach-neiram.netlify.app`).
+Elle existe : document natif UpTrainer, statut « draft », version 18, finalisée le 06/09/2026, confirmée explicitement par Marien (« Oui c'est tout bon pour moi »). Format « premium_short », environ 8 minutes, 1447 mots, structurée en accroche, promesse, crédibilité, mécanisme (les mêmes trois piliers que l'offre réelle : le créneau, le rendez-vous protégé avec alerte, la semaine difficile), projection à six mois, appel à l'action unique : « Réserve un appel sous cette vidéo. »
+
+**Elle confirme le travail du 08/09** : les trois piliers y sont racontés avec le même mécanisme que dans les livrables (bienvenue, programme, nutrition) — le créneau qui existe déjà (pause déjeuner, télétravail, après le bureau), l'intitulé neutre dans l'agenda, l'alerte à deux séances manquées, le format 15 minutes des semaines difficiles. Aucune divergence avec `memory/offres.md`.
+
+**Elle confirme aussi le conseil d'Alberich** : ni prix ni garantie n'y figurent, seulement le mécanisme et l'histoire du client au judo (déjà confirmé, accord obtenu). Le détail chiffré (prix, garantie, contenu précis) reste donc hors VSL — probablement pour l'appel de bilan de créneau lui-même.
+
+**Une divergence à signaler à Marien, pas à trancher ici** : la VSL dit « j'en accompagne vingt en ce moment », alors que `memory/business.md` documente 16 clients individuels actifs début septembre (source Sheet CA). Écart de 4. Soit le chiffre de la VSL est arrondi ou inclut les cours collectifs, soit le Sheet CA a besoin d'une mise à jour, soit la VSL a été écrite avant un changement. Les deux valeurs sont signalées ; Marien tranche laquelle utiliser en publicité.
+
+**Ce qui reste ouvert** : la VSL est un script et un jeu de diapositives (deck, thème « braise »), donc un format vidéo avec voix off et texte à l'écran, pas encore une page web. Aucun document de type « page de renvoi » ou « landing page VSL » n'apparaît dans l'inventaire UpTrainer. Reste à savoir où cette VSL sera hébergée pour que les créas y renvoient (page à créer sur Netlify, page UpTrainer, ou autre) : à demander à Marien ou directement à Alberich.
 
 ## Ce que les livrables ont corrigé chez nous
 
