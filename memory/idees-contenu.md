@@ -57,3 +57,14 @@ Vide. Une victoire = un fait anonyme (« un client a repris après 8 mois d'arr�
 - CapCut : fonction de suppression automatique des silences (« Supprimer les blancs ») sur la voix off avant montage, au lieu de couper à la main.
 - Cartes de hook et de CTA : générées à l'avance pour chaque script (texte jaune sur noir, 1080×1920), à demander à l'orchestrateur (skill `design` ou gabarit existant `template-fond-short-1080x1920.png`), pour que le montage ne soit plus qu'un assemblage.
 - Scripts par lots : écrire les scripts par 14 ou 30 d'un coup (skill `reel-script`), Marien n'enregistre que la voix.
+
+## Ciblé ET divertissant (règle issue de la vidéo « < 1000 abonnés », 08/09/2026)
+
+Règle : un contenu qui n'est que « valeur » (conseil facecam, mythe expliqué) fait 3 likes en 2026 ; un contenu qui n'est que viral (tendance, humour large) fait des vues mais attire des touristes. Chaque Short doit cocher les deux cases : **ciblé** (le papa ou le débutant se reconnaît dans les 2 premières secondes) **et** un ressort de divertissement (situation vécue jouée, contraste avant/après, exagération, POV, dialogue intérieur). Le lot de 21 scripts est ciblé mais peu divertissant : ajouter le ressort au tournage, pas dans le texte.
+
+Ressorts disponibles pour Marien, sans montage lourd :
+- **POV situation papa** : « POV : 21h, les enfants dorment, t'avais dit que tu ferais ta séance » (texte à l'écran, plan fixe, une seule action).
+- **Contraste jeu** : la même consigne dite à un débutant version « salle intimidante » puis version Coach Neiram (deux plans, changement de ton).
+- **Dialogue intérieur** : voix off qui joue les deux voix du papa qui hésite devant la salle, conclusion en une règle.
+- **Erreur jouée** : Marien fait l'erreur du mythe en exagérant, puis la corrige en un geste (mythes 6, 9, 17, 19 du lot).
+- **Réaction terrain** : réaction face caméra à une phrase entendue à la salle (sans nom, sans visage tiers).
