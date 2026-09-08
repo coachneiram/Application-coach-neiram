@@ -16,7 +16,9 @@ Mise à jour : 2026-09-06. Sources : site, Facebook, YouTube, docs de lancement,
 
 ## Ton
 
-- Tutoiement. Direct, concret, sans jargon de salle (séries, charges, hypertrophie) face aux débutants et aux papas.
+- Tutoiement pour le contenu public (Reels, publicités, posts). Direct, concret, sans jargon de salle (séries, charges, hypertrophie) face aux débutants et aux papas.
+- En message direct à un client ou un prospect : respecter la façon dont Marien s'adresse réellement à cette personne (tu ou vous). Ne jamais présumer le tutoiement, vérifier avant tout message automatique ou proposé.
+- Carole (lead L-20260906-001) : vouvoiement (Marien, 08/09/2026). Tu/vous des autres clients et prospects : à préciser par Marien, dossier par dossier.
 - « Pas de bullshit, pas de méthode miracle. »
 - Encourageant sans flatterie. Parle comme à un client, pas comme un présentateur.
 - Les CTA renvoient vers un produit précis, jamais « abonne-toi ».
