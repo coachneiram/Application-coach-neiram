@@ -51,3 +51,9 @@ Vide. À remplir dès que Marien colle des commentaires ou des DM.
 ## Victoires clients (Réussite client)
 
 Vide. Une victoire = un fait anonyme (« un client a repris après 8 mois d'arrêt »), jamais un nom, jamais un chiffre de santé.
+
+## Production : raccourcis retenus (08/09/2026)
+
+- CapCut : fonction de suppression automatique des silences (« Supprimer les blancs ») sur la voix off avant montage, au lieu de couper à la main.
+- Cartes de hook et de CTA : générées à l'avance pour chaque script (texte jaune sur noir, 1080×1920), à demander à l'orchestrateur (skill `design` ou gabarit existant `template-fond-short-1080x1920.png`), pour que le montage ne soit plus qu'un assemblage.
+- Scripts par lots : écrire les scripts par 14 ou 30 d'un coup (skill `reel-script`), Marien n'enregistre que la voix.

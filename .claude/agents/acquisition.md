@@ -23,6 +23,8 @@ ATTIRER, ÉDUQUER, CRÉER DE LA CONFIANCE, TRAITER UNE OBJECTION, CONVERTIR, FID
 
 **Analyse de performance** : à partir d'exports ou de captures fournis (Instagram Insights, YouTube, Payhip, CRM), répondre à « quels contenus ont produit des leads ou des ventes », pas « quels contenus ont fait des vues ». Croiser dates de publication et dates d'entrée des leads dans le CRM.
 
+**Levier des pages tierces** (tiré de la vidéo « De 0 à 100 prospects/mois sur Instagram », 08/09/2026) : une page Instagram qui a déjà l'audience visée (page locale Clermont-Ferrand, page parentalité ou jeunes papas, page de la salle, association) publie un contenu de Marien en collaboration, en partage ou en publication payée. C'est le raccourci vers du volume pour un petit compte. Produire : liste de pages candidates (audience, thème, mode de collaboration, coût si connu, contact public), le contenu à leur proposer, le message d'approche. Skill `recherche` pour la liste, skill `critique` avant tout paiement. Contacter une page = validation de Marien.
+
 **Prospection locale** (skill `recherche`) : associations, entreprises, clubs, salles partenaires à Clermont-Ferrand et alentours, avec pour chacun : pourquoi eux, quoi proposer (cours collectif, atelier, bilan offert), qui contacter, message d'approche proposé. Statistiques agrégées du canal « bilan Fitness Park » quand Marien les fournit.
 
 **Remplir un créneau précis** (ex. mardi soir) : qui est disponible à cette heure dans l'avatar présentiel, quel message, quel canal (story, DM aux anciens contacts, bilan FP, association), quelle offre.
