@@ -57,9 +57,18 @@ FA1 dit « les mecs qui reprennent le sport après 40 ans » alors que l'avatar 
 - Aucune créa ne porte le mot-code PAPA. Le brouillon adressé à Alberich le propose ; il n'est pas encore envoyé.
 - Créa 2 : « pas pour te dire de te lever plus tôt ni de sacrifier un dîner en famille » est bon. Vérifier qu'aucune créa ne culpabilise le temps passé en famille (règle `memory/positionnement.md`).
 
-### DÉFINITION DE TERMINÉ
+### DÉFINITION DE TERMINÉ (budget arrêté par Marien le 08/09 : 10 €/jour, soit 300 €/mois)
 
-Le lancement a marché si, dans les 21 jours suivant la première diffusion : au moins 6 bilans de créneau tenus et au moins 1 vente du Créneau Protégé, pour un budget total inférieur ou égal à ce que Marien fixe. Sinon, couper les créas et revenir au commentaire organique. Sans budget ni coût cible par rendez-vous fixés à l'avance, ce seuil est indicatif : il doit être arrêté avec Marien avant la première dépense.
+Sur les 30 premiers jours et 300 € de dépense : au moins 6 bilans de créneau tenus et au moins 1 vente du Créneau Protégé. Une vente rapporte 1 500 €, donc un bilan qui convertit une fois sur quatre vaut environ 375 € : payer 30 à 50 € un bilan reste très rentable. Seuil d'arrêt : moins de 3 bilans tenus après 300 € dépensés, on coupe et on revient au commentaire organique.
+
+**Conséquence directe du budget sur la structure de campagne.** À 10 €/jour, un ensemble de publicités ne peut pas sortir de la phase d'apprentissage de Meta, qui demande environ 50 conversions par semaine sur l'événement optimisé. Diffuser 7 créas revient à donner 1,40 € par jour à chacune : aucune n'aura de données exploitables, et le test ne dira rien.
+
+Structure recommandée pour ce budget :
+- **Un seul ensemble de publicités**, 2 ou 3 créas au maximum. Les créas 2 et 3, plus le hook H03 de la créa clean, sont les meilleures candidates : elles n'ont aucun point bloquant.
+- **Les trois follow ads attendent.** Le retargeting suppose une audience de visiteurs et de vidéos vues qui n'existe pas encore. Elles se lanceront quand les créas d'acquisition auront tourné quelques semaines.
+- **La créa 1 attend** la réécriture de la garantie.
+- **Durée minimale du test** : 4 semaines pleines sans toucher aux réglages. À 10 €/jour, couper au bout de 5 jours ne prouve rien.
+- **Événement d'optimisation** : à trancher avec Alberich. Optimiser directement sur le rendez-vous pris donnera trop peu de signaux à ce budget.
 
 ### VERDICT : GO SOUS CONDITIONS (révisé le 08/09, après lecture des livrables)
 
