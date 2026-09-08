@@ -60,7 +60,8 @@ Mis de côté (décision du 06/09) : offre golfeurs « Tenir la Carte ». Docume
 | Sheet `Suivi Coaching en ligne` | Pointages, alertes d'adhérence, résumés hebdo envoyés par l'app | Lecture via connecteur Drive ; écrit par `coach-sync.gs` |
 | Sheet `CRM CoachNeiram` (dossier Drive « AI Business OS », créé le 06/09/2026, onglet Clients prérempli) | Leads, interactions, clients | Lecture Drive ; écriture via `apps-script/crm.gs` une fois déployé par Marien |
 | App client `coach-neiram-app` (GitHub Pages) | Journal, nutrition, séances, bilans IA, alertes coach | Proxy Cloudflare `coach-neiram-proxy` (Gemini + `/coach-sync`) |
-| Sheets `Programme_<client>` + base vidéo YouTube | Delivery des programmes | Manuel |
+| Sheets `Programme_<client>` (structure ancienne, clients actuels dont Amellie) + base vidéo YouTube | Delivery des programmes | Manuel |
+| Modèle `Programme` nouvelle structure (Marien, 08/09/2026 : https://docs.google.com/spreadsheets/d/10f-AafkV6apdybqu4yq0fyF9VtiyhhpNSchMUQsk3YU) — fiche client, 2 blocs de 6 jours, colonnes charge/RPE séparées, base vidéo par formule | Base pour tous les futurs clients (copie renommée par client) | Manuel pour l'instant ; script d'écriture à construire au premier client réel sur ce modèle |
 | Trackers nutrition Excel | Delivery nutrition | Manuel |
 | Calendly | Appels découverte | Connecteur (lecture) |
 | Gmail, Google Calendar | Communication, agenda | Connecteurs |
