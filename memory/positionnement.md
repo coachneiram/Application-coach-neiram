@@ -30,3 +30,4 @@ Mise à jour : 2026-09-06. Sources : site, Facebook, YouTube, docs de lancement,
 - Angle « il n'ose pas demander à sa femme » : réservé, à n'utiliser que si l'offre le traite vraiment (note de Marien dans le doc ADS).
 - Angle « peur de mal vieillir devant ses enfants » : pas en première publicité, seulement pour des gens qui connaissent déjà Marien.
 - Tout avis médical.
+- **Publicités Meta payantes uniquement** : éviter le mot « papa » et toute formulation qui nomme directement un statut parental dans le texte ou le ciblage. Signalé par Alberich (UpTrainer, copywriter, 08/09/2026) : ce type de langage déclenche des refus de Meta (politique sur les attributs personnels supposés). Ne s'applique pas au contenu organique (Reels, posts, stories, DM), où « papa » et le mot-code restent utilisés normalement — seul l'organique n'est pas soumis à la revue publicitaire de Meta.

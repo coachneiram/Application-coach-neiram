@@ -84,6 +84,28 @@ Conditions 1, 2 et 3 levées le 08/09/2026. Restent à traiter par Alberich avan
 
 **Statut global au 08/09/2026 : GO.** Les trois conditions bloquantes (garantie, chiffres et accord, budget) sont levées. Les conditions 4 à 6 sont des corrections de texte et de test, pas des blocages : elles se traitent avec Alberich avant le tournage du week-end.
 
+## Réponse d'Alberich (08/09, 19h28, sur UpTrainer)
+
+Retour du copywriter, point par point sur le message envoyé :
+
+1. **Garantie** : « tu peux carrément retirer la phrase à mon sens ». Il propose de supprimer la garantie du script publicitaire plutôt que de la réécrire.
+2. **Détail de l'offre** : « impossible de tout détailler dans une pub, le format est trop court, c'est plutôt le but de la VSL ». Les 14 visios, le WhatsApp, l'application ne rentrent pas dans 60 secondes ; ce contenu se place dans la VSL (page de vente longue), pas dans le Short publicitaire.
+3. **Le mot « papa » à éviter sur Meta** : « ne surtout pas mentionner les papas, aujourd'hui ça se fait trigger direct sur Meta et ça ne fonctionne donc plus ». Répété au point 6 pour le mot-code : « tu peux tenter mais le mot papa faut éviter encore une fois sur Meta ».
+4. *(message non capturé dans les captures reçues — à redemander à Marien si le contenu est nécessaire)*
+5. **Budget et structure de campagne** : « faux, Meta va dépenser sur une ou deux max et on optimisera une fois les premières data, ne t'en fais pas ». Il conteste la recommandation de limiter manuellement à 2-3 créas : l'optimisation budgétaire de Meta (CBO) répartit automatiquement le budget vers les meilleures créas au sein d'un même ensemble.
+6. **Follow ads** : « les follow ads vaut mieux être plus large et parler aux hommes de tel âge etc », « le but n'est pas juste de gagner des abonnés mais de gagner des abonnés qualifiés que tu pourras aller chercher en setting DM ». Ciblage par âge plutôt que par statut de papa ; les abonnés gagnés servent de réservoir pour une prospection DM manuelle (« setting »), pas une fin en soi.
+
+### Ce qui est acté
+
+- **Garantie retirée des scripts publicitaires courts.** Elle reste réelle et opposable dans les CGV (article 9 bis, validé par Marien) et dans le document de bienvenue remis au client signé : rien de ce travail n'est perdu, seule la publicité n'en parle plus. Point 1 de la critique : refermé par retrait plutôt que par réécriture.
+- **Le mot « papa » et toute formulation de statut parental sont à éviter dans les publicités Meta payantes** (créas et follow ads), par risque de refus Meta. Cette règle ne s'applique pas au contenu organique (Reels publiés normalement, DM, bio) : `memory/positionnement.md` mis à jour avec la distinction payant/organique. Conséquence directe : le mot-code « commente PAPA » proposé au point 6 de notre message n'est pas testé en publicité payante ; il continue de vivre dans les Shorts organiques du calendrier (`docs/acquisition/calendrier-2026-09-14.md`), qui ne passent pas par la revue publicitaire de Meta.
+- **Structure de campagne : suivre l'avis d'Alberich**, qui a l'expérience de gestion de comptes publicitaires que nous n'avons pas. Un seul ensemble de publicités avec les créas disponibles (créas 2, 3, clean), Meta répartit le budget automatiquement. Nuance à garder malgré tout : 10 €/jour reste un budget bas, la phase d'apprentissage sera lente quel que soit le nombre de créas ; la durée de test de 4 semaines sans y toucher reste valable.
+- **Follow ads : reportées à une seconde phase, purpose clarifiée.** Ciblage large par âge plutôt que par statut parental, objectif = constituer un réservoir de qualifiés que Marien ou Clara contactent ensuite en DM (« setting »). Cela suppose une capacité de prospection DM qui n'existe pas encore à ce stade (Marien seul, avant l'entrée de Clara sur ce canal). Reste HYPOTHÈSE : que ce réservoir soit plus rentable que le mot-code organique, non testé à ce jour.
+
+### Question ouverte pour Alberich (à poser avant le tournage)
+
+Où les créas envoient-elles le prospect ? « Réserve ton bilan de créneau » suppose un lien — Calendly directement, une page de renvoi, ou une VSL déjà existante ? Alberich mentionne la VSL comme l'endroit où le détail de l'offre doit apparaître : je n'ai pas trouvé de VSL terminée pour Coach Neiram dans les documents disponibles (`mcp__UpTrainerOS__uptrainer_list_workflows` liste les modules « Réalisation de la VSL » et « Créer la page VSL », sans indiquer qu'ils sont terminés pour ce compte). Si la VSL n'existe pas encore, le lien des créas doit être précisé avant le tournage : Calendly direct, ou une page produit existante (`coach-neiram.netlify.app`).
+
 ## Ce que les livrables ont corrigé chez nous
 
 Les PDF de Marien reçus le 08/09 (bienvenue, programme pilier 1, nutrition pilier 1) sont plus précis que ce que la mémoire contenait. Trois corrections en découlent, appliquées le jour même :
