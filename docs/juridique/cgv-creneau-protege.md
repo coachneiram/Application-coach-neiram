@@ -55,13 +55,11 @@ Fournir des informations exactes sur sa condition, respecter les consignes de s�
 
 Le coach est tenu d'une obligation de moyens. Aucun résultat physique ou esthétique n'est garanti : les progrès dépendent de l'assiduité et de la situation de chacun.
 
-### 9 bis. Garantie de prolongation (proposition du 08/09/2026, à valider par Marien)
+### 9 bis. Garantie de prolongation (validée par Marien le 08/09/2026)
 
-Texte proposé, repris des livrables remis au client, à insérer après l'article 9 :
+Par exception à l'obligation de moyens rappelée à l'article 9, le coach s'engage à prolonger l'accompagnement de huit semaines, sans frais supplémentaires, si l'ensemble des conditions suivantes sont réunies au terme des vingt-six semaines : au moins 70 % des séances prévues ont été pointées dans l'application, une séance de maintien de quinze minutes comptant comme une séance réalisée ; au moins vingt bilans hebdomadaires sur vingt-six ont été transmis ; trois objectifs de capacité ont été formulés et cosignés par les deux parties au cours de la première semaine ; et aucun de ces trois objectifs n'est atteint à la date d'échéance. Cette prolongation constitue la seule contrepartie due à ce titre, à l'exclusion de tout remboursement. Elle ne s'applique pas en cas de résiliation anticipée, quelle qu'en soit la cause.
 
-« Par exception à l'obligation de moyens rappelée à l'article 9, le coach s'engage à prolonger l'accompagnement de huit semaines, sans frais supplémentaires, si l'ensemble des conditions suivantes sont réunies au terme des vingt-six semaines : au moins 70 % des séances prévues ont été pointées dans l'application, une séance de maintien de quinze minutes comptant comme une séance réalisée ; au moins vingt bilans hebdomadaires sur vingt-six ont été transmis ; trois objectifs de capacité ont été formulés et cosignés par les deux parties au cours de la première semaine ; et aucun de ces trois objectifs n'est atteint à la date d'échéance. Cette prolongation constitue la seule contrepartie due à ce titre, à l'exclusion de tout remboursement. Elle ne s'applique pas en cas de résiliation anticipée, quelle qu'en soit la cause. »
-
-Motif : la garantie figure dans le document de bienvenue remis au client et sera reprise en publicité. Un engagement présenté au client sans base contractuelle expose le coach ; les CGV et les supports commerciaux doivent dire la même chose. Ce texte n'a pas été relu par un juriste.
+Origine : reprise du document de bienvenue remis au client (`memory/offres.md`), pour que le contrat et les supports commerciaux disent la même chose. Ce texte n'a pas été relu par un juriste : Marien a demandé une relecture en parallèle (banquier, ou service juridique Pacifica au titre de la protection juridique 50 000 €/litige, `memory/business.md`). Les conditions reposent sur des données que l'application collecte (taux de pointage, bilans envoyés) : en cas de panne de pointage prolongée, la preuve du taux de 70 % peut manquer.
 
 ### 10. Données personnelles
 

@@ -74,14 +74,16 @@ Structure recommandée pour ce budget :
 
 Conditions, dans l'ordre :
 
-1. Réécrire la garantie de la créa 1 avec ses conditions réelles (8 semaines gratuites, 70 % de séances pointées, 20 bilans sur 26, objectifs cosignés), et ajouter un article « garantie » aux CGV. Bloquant.
-2. Vérifier ou retirer « une centaine de personnes accompagnées », et obtenir l'accord écrit pour le témoignage du client qui a repris le judo. Bloquant.
-3. Fixer un budget mensuel et un coût cible par bilan de créneau avant la première dépense.
+1. Réécrire la garantie de la créa 1 avec ses conditions réelles (8 semaines gratuites, 70 % de séances pointées, 20 bilans sur 26, objectifs cosignés). Levé : la garantie est validée dans les CGV (article 9 bis, `docs/juridique/cgv-creneau-protege.md`, 08/09/2026).
+2. Vérifier ou retirer « une centaine de personnes accompagnées », et obtenir l'accord écrit pour le témoignage du client qui a repris le judo. Levé : chiffre confirmé par Marien (~100 personnes depuis 2021, `memory/business.md`), accord obtenu (08/09/2026).
+3. Fixer un budget mensuel et un coût cible par bilan de créneau avant la première dépense. Levé : 10 €/jour (~300 €/mois), Marien, 08/09/2026 — voir la structure de campagne ci-dessus.
 4. Corriger « après 40 ans » vers l'avatar papa, et réserver H01 et H02 au retargeting comme le prévoit le document ADS de Marien.
 5. Ajouter le suivi humain dans au moins un closing : 14 visios, WhatsApp, et le coach qui écrit le premier dès deux créneaux manqués.
 6. Tester une follow ad avec « commente PAPA » face à « abonne-toi ».
 
-Les créas 2, 3 et clean (hook H03) sont tournables dès que les conditions 2 et 4 sont levées. La créa 1 attend la condition 1. La condition portant sur le contenu de l'offre est levée : les livrables du 08/09 font foi et sont recopiés dans `memory/offres.md`.
+Conditions 1, 2 et 3 levées le 08/09/2026. Restent à traiter par Alberich avant tournage : condition 4 (âge/avatar, angle réservé), condition 5 (suivi humain dans un closing), condition 6 (test mot-code sur le retargeting, différé — voir structure de campagne). Les créas 2, 3 et le hook H03 de la créa clean sont tournables dès la condition 4 corrigée. La créa 1 est tournable avec la formulation de garantie validée dans le brouillon envoyé à Alberich.
+
+**Statut global au 08/09/2026 : GO.** Les trois conditions bloquantes (garantie, chiffres et accord, budget) sont levées. Les conditions 4 à 6 sont des corrections de texte et de test, pas des blocages : elles se traitent avec Alberich avant le tournage du week-end.
 
 ## Ce que les livrables ont corrigé chez nous
 
