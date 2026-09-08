@@ -14,7 +14,7 @@ Publication : cross-post identique YouTube Shorts + Reels + TikTok, sans waterma
 | Mar 15/09, 11h30 | Short | ÉDUQUER | J2 — « Cardio à jeun = brûle-graisse ? » | Programme Débutant 29 € | Question : « Tu t'entraînes plutôt à jeun ou après manger ? » | Script prêt |
 | Mer 16/09, 13h00 | Short | CRÉER CONFIANCE | J9 — « Si t'arrêtes, ton muscle devient du gras ? » (rassure sur une reprise après pause — parle aussi aux papas) | Programme Débutant 29 € | Question : « Ça fait combien de temps que t'as arrêté et repris ? » | Script prêt |
 | Jeu 17/09, 12h00 | Short | ÉDUQUER | J3 — « La muscu rend les femmes trop musclées ? » | Programme Débutant 29 € | Sondage : « Tonifier = prendre du muscle. Tu le savais ? Oui / Non » | Script prêt |
-| Ven 18/09, 17h30 | Short | TRAITER OBJECTION (papa) | « Je dois choisir entre le sport et ma famille » — montrer qu'un créneau protégé d'1h/semaine ne prend rien à personne (angle 5 validé, `memory/positionnement.md`) | DM-moi « PAPA » | Question : « Ton dernier empêchement pour t'entraîner, c'était quoi ? » | Script prêt (lot 09/2026, n° 1) |
+| Ven 18/09, 17h30 | Short | TRAITER OBJECTION (papa) | « Je dois choisir entre le sport et ma famille » — montrer qu'un créneau protégé d'1h/semaine ne prend rien à personne (angle 5 validé, `memory/positionnement.md`) | Commente « PAPA » | Question : « Ton dernier empêchement pour t'entraîner, c'était quoi ? » | Script prêt (lot 09/2026, n° 1) |
 | Sam 19/09, 12h00 | Short | ÉDUQUER | J4 — « Plus tu transpires, plus tu perds ? » | Programme Débutant 29 € | Sondage : « Tu juges ta séance à la transpiration ? Oui / Non » | Script prêt |
 | Dim 20/09, 18h45 | Short | CRÉER CONFIANCE | J10 — « Trop de protéines = reins en danger ? » (autorité, preuve) | Programme Débutant 29 € | Question : « Tu comptes tes protéines ou pas du tout ? » | Script prêt |
 
@@ -27,8 +27,8 @@ Publication : cross-post identique YouTube Shorts + Reels + TikTok, sans waterma
 | Mer 23/09, 13h00 | Short | ÉDUQUER | J7 — « 200 crunchs par jour pour un ventre plat ? » | Programme Débutant 29 € | Sondage : « Tu fais des abdos tous les jours ? Oui / Non » | Script prêt |
 | Jeu 24/09, 18h30 | Short | CRÉER CONFIANCE | J13 — « Les machines c'est pour les faibles ? » (autorité, pédagogie) | Programme Débutant 29 € | Question : « Machines ou poids libres, ta préférence ? » | Script prêt |
 | Ven 25/09, 12h00 | Short | CONVERTIR (présentiel) | Bilan de mi-parcours : ce que le Programme Débutant contient réellement (3 séances/semaine, vidéos, nutrition) — lever le doute avant achat | Programme Débutant 29 € | Sondage : « T'as déjà téléchargé un programme tout fait ? Oui / Non » | Script prêt (lot 09/2026, n° 3) |
-| Sam 26/09, 17h30 | Short | CONVERTIR (papa) | Présentation directe du Créneau Protégé : pour qui, ce que ça change concrètement en 3 mois. Aucun prix à l'écran. | DM-moi « PAPA » | Sondage : « T'as déjà pensé à du coaching en ligne ? Oui / Jamais réfléchi » | Script prêt (lot 09/2026, n° 4) |
-| Dim 27/09, 17h30 | Short | ATTIRER (papa, large audience) | « À partir de 40 ans, trop tard pour commencer ? » (mythe non encore scripté, fort potentiel de partage, prépare le terrain avant les pubs) | DM-moi « PAPA » | Question : « L'âge où tu penses que c'est "trop tard", c'est quoi pour toi ? » | Script prêt (lot 09/2026, n° 5) |
+| Sam 26/09, 17h30 | Short | CONVERTIR (papa) | Présentation directe du Créneau Protégé : pour qui, ce que ça change concrètement en 3 mois. Aucun prix à l'écran. | Commente « PAPA » | Sondage : « T'as déjà pensé à du coaching en ligne ? Oui / Jamais réfléchi » | Script prêt (lot 09/2026, n° 4) |
+| Dim 27/09, 17h30 | Short | ATTIRER (papa, large audience) | « À partir de 40 ans, trop tard pour commencer ? » (mythe non encore scripté, fort potentiel de partage, prépare le terrain avant les pubs) | Commente « PAPA » | Question : « L'âge où tu penses que c'est "trop tard", c'est quoi pour toi ? » | Script prêt (lot 09/2026, n° 5) |
 
 ## Répartition (règle de la skill)
 
@@ -45,7 +45,7 @@ Le créateur demande un mot-code en commentaire sur 70 à 80 % des contenus de q
 1. Garder le lien bio pour les 9 contenus débutant (vente directe à 29 €, aucun DM à gérer) et réserver le mot-code PAPA aux 5 contenus papa. Simple, cohérent avec « papa d'abord » côté conversations.
 2. Ajouter un second mot-code « PLAN » sur les contenus débutant, avec une page gratuite « Ta première semaine en salle », puis proposer le Programme Débutant en DM. Plus de conversations, mais chaque DM de vente d'un produit à 29 € prend le même temps qu'un DM Créneau Protégé.
 
-Recommandation : option 1 pour cette quinzaine. Mesurer à J+14 si les contenus débutant vendent par le lien ; sinon passer à l'option 2.
+Retenu le 08/09 : option 1. Les 5 contenus papa demandent un commentaire « PAPA » contre la méthode en 1 page (`docs/acquisition/lead-magnet-papa.md`) ; les 9 contenus débutant gardent le lien en bio. À revoir à J+14 selon les ventes du Programme Débutant.
 
 ## Mesure à J+14 (dimanche 27/09 au soir)
 

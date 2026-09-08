@@ -17,11 +17,11 @@ Rien n'est publié sans validation de Marien. Les cartes HOOK et CTA peuvent êt
 
 | N° | Titre | Avatar | Objectif | CTA | Date prévue |
 |---|---|---|---|---|---|
-| 1 | Le sport ou ta famille ? | Papa | TRAITER OBJECTION | DM « PAPA » | Ven 18/09, 17h30 |
+| 1 | Le sport ou ta famille ? | Papa | TRAITER OBJECTION | Commente PAPA | Ven 18/09, 17h30 |
 | 2 | Essayer seul d'abord | Débutant | TRAITER OBJECTION | Programme Débutant 29 € | Mar 22/09, 17h30 |
 | 3 | Ce qu'il y a dans le Programme Débutant | Débutant | CONVERTIR | Programme Débutant 29 € | Ven 25/09, 12h00 |
-| 4 | Le Créneau Protégé, pour qui | Papa | CONVERTIR | DM « PAPA » | Sam 26/09, 17h30 |
-| 5 | À 40 ans, trop tard ? | Papa | ATTIRER | DM « PAPA » | Dim 27/09, 17h30 |
+| 4 | Le Créneau Protégé, pour qui | Papa | CONVERTIR | Commente PAPA | Sam 26/09, 17h30 |
+| 5 | À 40 ans, trop tard ? | Papa | ATTIRER | Commente PAPA | Dim 27/09, 17h30 |
 | 6 | Manger toutes les 3 heures | Débutant | ÉDUQUER | Programme Débutant 29 € | libre |
 | 7 | Une muscu spéciale femmes | Débutant | ÉDUQUER | Programme Débutant 29 € | libre |
 | 8 | Deux heures à la salle | Papa | ÉDUQUER | Programme Maison 29,99 € | libre |
@@ -34,12 +34,12 @@ Rien n'est publié sans validation de Marien. Les cartes HOOK et CTA peuvent êt
 | 15 | La muscu rend raide et lent | Débutant | ÉDUQUER | Programme Débutant 29 € | libre |
 | 16 | Les féculents le soir | Papa | ÉDUQUER | Programme Maison 29,99 € | libre |
 | 17 | Que du tapis par peur des machines | Débutant | ÉDUQUER | Programme Débutant 29 € | libre |
-| 18 | Une semaine ratée, tout est perdu | Papa | TRAITER OBJECTION | DM « PAPA » | libre |
+| 18 | Une semaine ratée, tout est perdu | Papa | TRAITER OBJECTION | Commente PAPA | libre |
 | 19 | S'étirer pour effacer les courbatures | Débutant | ÉDUQUER | Programme Débutant 29 € | libre |
 | 20 | Souffrir de la faim pour maigrir | Papa | ÉDUQUER | Programme Maison 29,99 € | libre |
-| 21 | Deux séances par semaine, inutile ? | Papa | CRÉER CONFIANCE | DM « PAPA » | libre |
+| 21 | Deux séances par semaine, inutile ? | Papa | CRÉER CONFIANCE | Commente PAPA | libre |
 
-Répartition : 14 ÉDUQUER, 3 TRAITER OBJECTION, 2 CONVERTIR, 1 ATTIRER, 1 CRÉER CONFIANCE. 12 scripts débutant, 9 scripts papa. Le Pack Mental n'est pas utilisé en CTA dans ce lot : J12 du pack le porte déjà, et les sujets « mental » de ce lot (18, 21) visent le DM « PAPA » pour alimenter le CRM avant les pubs.
+Répartition : 14 ÉDUQUER, 3 TRAITER OBJECTION, 2 CONVERTIR, 1 ATTIRER, 1 CRÉER CONFIANCE. 12 scripts débutant, 9 scripts papa. Le Pack Mental n'est pas utilisé en CTA dans ce lot : J12 du pack le porte déjà, et les sujets « mental » de ce lot (18, 21) visent le commentaire « PAPA » pour alimenter le CRM avant les pubs.
 
 Ordre de tournage conseillé : 1, 2, 3 (datés en premier), puis 4 et 5, puis les 16 libres dans l'ordre, pour garder une semaine d'avance sur la publication.
 
@@ -53,7 +53,7 @@ Ordre de tournage conseillé : 1, 2, 3 (datés en premier), puis 4 et 5, puis le
 
 **VO :** Tu te dis que si tu reprends le sport, c'est ta famille qui paie. Une heure de moins avec les enfants, une soirée de moins à la maison. Alors tu ne reprends pas. Regarde ta semaine : 168 heures. Une séance, c'est une heure. Ce n'est pas le temps qui manque. C'est que cette heure n'existe nulle part dans ton agenda, donc elle saute à la première sieste, au premier bain. Un créneau protégé, c'est une heure fixe, connue de tout le monde à la maison, la même chaque semaine. Personne n'y perd. Un papa qui rentre avec de l'énergie, tout le monde y gagne. Tu ne choisis pas entre le sport et ta famille. Tu choisis une heure.
 
-**CTA :** « Si tu veux qu'on trouve ton heure dans ta semaine, envoie-moi "PAPA" en message privé. » → DM « PAPA »
+**CTA :** « Commente "PAPA", je t'envoie en DM ma méthode en 1 page pour caler ton heure sans négocier avec ta famille. » → Commente PAPA
 
 **Titre YouTube :** Sport ou famille ? Tu n'as pas à choisir, voilà pourquoi
 
@@ -113,7 +113,7 @@ Ordre de tournage conseillé : 1, 2, 3 (datés en premier), puis 4 et 5, puis le
 
 **VO :** Tu as déjà repris. À chaque fois, ça tient trois semaines, puis un enfant malade, un dossier au boulot, une nuit courte, et c'est fini. Le Créneau Protégé, c'est l'accompagnement que j'ai construit pour ça. Pour les papas qui savent qu'ils doivent bouger, mais qui n'ont personne pour les tenir. On fixe ton heure dans la semaine. Je t'écris ton programme, adapté à ton matériel. On se voit en visio, tu m'envoies tes vidéos, je corrige ton geste. Chaque semaine, un bilan : ce qui a tenu, ce qui a sauté, ce qu'on ajuste. Au bout de trois mois, tu n'as plus besoin de motivation. Tu as un rendez-vous. Et l'énergie pour courir après tes gosses le dimanche.
 
-**CTA :** « Si tu veux savoir si c'est pour toi, envoie-moi "PAPA" en message privé, on en parle. » → DM « PAPA »
+**CTA :** « Commente "PAPA", je t'envoie ma méthode en 1 page et on voit ensemble si c'est pour toi. » → Commente PAPA
 
 **Titre YouTube :** Le Créneau Protégé : pour quel papa, et ce que ça change en 3 mois
 
@@ -133,7 +133,7 @@ Ordre de tournage conseillé : 1, 2, 3 (datés en premier), puis 4 et 5, puis le
 
 **VO :** « J'ai 40 ans, j'ai jamais fait de sport, c'est mort pour moi. » Non. Le muscle répond à l'entraînement à tout âge. À 40, à 50, à 70 ans. Ce qui est vrai, c'est que sans rien faire, on perd du muscle chaque année à partir de la trentaine. Doucement, sans le sentir. Jusqu'au jour où monter les escaliers avec le petit dans les bras devient une épreuve. Donc ce n'est pas trop tard. C'est exactement le moment. Le corps que tu auras à 60 ans, tu le construis maintenant, avec deux séances par semaine, pas avec des regrets. Tu n'as pas raté le départ. Tu es juste en train de le prendre.
 
-**CTA :** « Si tu veux reprendre proprement à 40 ans passés, envoie-moi "PAPA" en message privé. » → DM « PAPA »
+**CTA :** « Commente "PAPA", je t'envoie ma méthode en 1 page pour reprendre proprement, à ton rythme. » → Commente PAPA
 
 **Titre YouTube :** Commencer le sport à 40 ans, c'est trop tard ? Non, et voilà pourquoi
 
@@ -395,7 +395,7 @@ Ordre de tournage conseillé : 1, 2, 3 (datés en premier), puis 4 et 5, puis le
 
 **VO :** Enfant malade, semaine de fou au boulot, deux nuits blanches. Tu n'as pas mis un pied à la salle. Et dans ta tête : « c'est mort, faut tout recommencer. » Non. Une semaine sans entraînement, tu ne perds rien. Ta force reste là plusieurs semaines. Ce qui te fait reculer, c'est la phrase d'après : « puisque c'est foutu, je reprends lundi prochain. » Et lundi prochain devient dans deux mois. Un papa qui tient sur l'année, ce n'est pas un papa qui ne rate jamais. C'est un papa qui rate une semaine et revient la suivante, sans se punir. Rater une semaine, ça fait partie du plan. Rater la reprise, non.
 
-**CTA :** « Si tes semaines sont imprévisibles et que tu veux un plan qui survit à ça, envoie-moi "PAPA" en message privé. » → DM « PAPA »
+**CTA :** « Commente "PAPA", je t'envoie ma méthode en 1 page : un créneau qui survit aux semaines imprévisibles. » → Commente PAPA
 
 **Titre YouTube :** Une semaine sans sport, tout est perdu ? Voilà ce qui l'est vraiment
 
@@ -455,7 +455,7 @@ Ordre de tournage conseillé : 1, 2, 3 (datés en premier), puis 4 et 5, puis le
 
 **VO :** « Si je peux pas y aller tous les jours, autant pas commencer. » C'est la phrase qui garde le plus de papas sur le canapé. Voilà ce que je vois avec ceux que je suis : deux séances par semaine, et en trois mois ils portent leurs enfants sans y penser, ils dorment mieux, ils ont retrouvé du souffle. Pourquoi ? Parce que le muscle se construit entre les séances, pendant que tu récupères. S'entraîner tous les jours quand tu dors cinq heures, ce n'est pas plus vite. C'est plus vite cassé. Deux séances tenues cinquante-deux semaines battent sept séances tenues trois semaines. Ce n'est pas la fréquence qui fait le résultat. C'est la durée pendant laquelle tu tiens.
 
-**CTA :** « Deux séances qui tiennent dans ta semaine, c'est ce qu'on construit ensemble : envoie-moi "PAPA" en message privé. » → DM « PAPA »
+**CTA :** « Commente "PAPA", je t'envoie ma méthode en 1 page pour caler ces deux séances chaque semaine. » → Commente PAPA
 
 **Titre YouTube :** Tous les jours = plus vite ? Pas quand tu es papa
 
@@ -468,6 +468,12 @@ Ordre de tournage conseillé : 1, 2, 3 (datés en premier), puis 4 et 5, puis le
 **B-roll suggéré :** calendrier avec deux cases cochées par semaine ; enfant porté sur les épaules, filmé de dos ; haltères posés dans un salon au petit matin.
 
 ---
+
+## CTA des scripts papa (mise à jour du 08/09)
+
+Les 5 scripts papa (1, 4, 5, 18, 21) demandent un **commentaire** « PAPA », plus un DM. Raison : le commentaire est public (il pousse le Short), il donne la liste exacte des personnes à contacter, et le DM entrant reste possible via la bio. Chaque CTA promet la même chose, la méthode en 1 page (`docs/acquisition/lead-magnet-papa.md`, validée le 08/09). Le PDF doit être prêt avant le tournage du script 1 (publication le 18/09).
+
+Les 16 scripts débutant gardent le lien en bio vers le Programme Débutant 29 € : décision de la quinzaine, à revoir à J+14 selon les ventes (`docs/acquisition/calendrier-2026-09-14.md`).
 
 ## Points à vérifier par Marien avant enregistrement
 
