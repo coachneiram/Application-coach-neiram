@@ -16,9 +16,9 @@ Vouvoiement : règle de Marien (prospect = vous). Sur Instagram, après un Short
 
 ## Message 1 — dans les 2 heures après le commentaire (niveau B une fois validé)
 
-> Bonjour {prénom}, merci pour votre commentaire sous ma vidéo. Je réponds à chaque papa qui laisse « PAPA », donc question directe : aujourd'hui, ce qui vous empêche de reprendre, c'est plutôt le temps, l'énergie le soir, ou vous ne savez pas par quoi commencer ?
+> Bonjour {prénom}, voici la méthode en 1 page promise sous ma vidéo. [PDF « Le Créneau Protégé en 1 page », `docs/acquisition/lead-magnet-papa.md`] Question directe pour que je vous oriente : aujourd'hui, ce qui vous empêche de reprendre, c'est plutôt le temps, l'énergie le soir, ou vous ne savez pas par quoi commencer ?
 
-Une seule question, trois réponses possibles. Pas de lien, pas d'offre, pas de prix.
+Le lead magnet est livré dans le même message que la question (chapitre 14 de la vidéo : le contenu gratuit ouvre la conversation, la qualification se fait dedans). Une seule question, trois réponses possibles. Pas de lien externe, pas d'offre, pas de prix.
 
 ## Message 2 — après sa réponse (niveau B une fois validé)
 
