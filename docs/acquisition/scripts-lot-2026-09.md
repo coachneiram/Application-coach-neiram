@@ -51,7 +51,7 @@ Ordre de tournage conseillé : 1, 2, 3 (datés en premier), puis 4 et 5, puis le
 
 **HOOK écran :** « Le sport ou ta famille ? »
 
-**VO :** Tu te dis que si tu reprends le sport, c'est ta famille qui paie. Une heure de moins avec les enfants, une soirée de moins à la maison. Alors tu ne reprends pas. Regarde ta semaine en vrai : 168 heures. Une séance, c'est une heure. Une seule. Ce n'est pas le temps qui manque. C'est que cette heure n'existe nulle part dans ton agenda, donc elle saute à la première sieste, au premier bain. Un créneau protégé, c'est une heure fixe, connue de tout le monde à la maison, la même chaque semaine. Personne n'y perd. Un papa qui rentre avec de l'énergie, tout le monde y gagne. Tu ne choisis pas entre le sport et ta famille. Tu choisis une heure.
+**VO :** Tu te dis que si tu reprends le sport, c'est ta famille qui paie. Une heure de moins avec les enfants, une soirée de moins à la maison. Alors tu ne reprends pas. Regarde ta semaine : 168 heures. Une séance, c'est une heure. Ce n'est pas le temps qui manque. C'est que cette heure n'existe nulle part dans ton agenda, donc elle saute à la première sieste, au premier bain. Un créneau protégé, c'est une heure fixe, connue de tout le monde à la maison, la même chaque semaine. Personne n'y perd. Un papa qui rentre avec de l'énergie, tout le monde y gagne. Tu ne choisis pas entre le sport et ta famille. Tu choisis une heure.
 
 **CTA :** « Si tu veux qu'on trouve ton heure dans ta semaine, envoie-moi "PAPA" en message privé. » → DM « PAPA »
 
@@ -111,7 +111,7 @@ Ordre de tournage conseillé : 1, 2, 3 (datés en premier), puis 4 et 5, puis le
 
 **HOOK écran :** « Trois semaines, et ça s'écroule encore ? »
 
-**VO :** Tu as déjà repris. Deux fois, trois fois. À chaque fois, ça tient trois semaines, puis un enfant malade, un dossier au boulot, une nuit courte, et c'est fini. Le Créneau Protégé, c'est l'accompagnement que j'ai construit pour ça. Pour les papas qui savent qu'ils doivent bouger, mais qui n'ont personne pour les tenir. On fixe ton heure dans la semaine. Je t'écris ton programme, adapté à ton niveau et à ton matériel. On se voit en visio, tu m'envoies tes vidéos, je corrige ton geste. Chaque semaine, un bilan : ce qui a tenu, ce qui a sauté, ce qu'on ajuste. Au bout de trois mois, tu n'as plus besoin de motivation. Tu as un rendez-vous. Et l'énergie pour courir après tes gosses le dimanche.
+**VO :** Tu as déjà repris. À chaque fois, ça tient trois semaines, puis un enfant malade, un dossier au boulot, une nuit courte, et c'est fini. Le Créneau Protégé, c'est l'accompagnement que j'ai construit pour ça. Pour les papas qui savent qu'ils doivent bouger, mais qui n'ont personne pour les tenir. On fixe ton heure dans la semaine. Je t'écris ton programme, adapté à ton matériel. On se voit en visio, tu m'envoies tes vidéos, je corrige ton geste. Chaque semaine, un bilan : ce qui a tenu, ce qui a sauté, ce qu'on ajuste. Au bout de trois mois, tu n'as plus besoin de motivation. Tu as un rendez-vous. Et l'énergie pour courir après tes gosses le dimanche.
 
 **CTA :** « Si tu veux savoir si c'est pour toi, envoie-moi "PAPA" en message privé, on en parle. » → DM « PAPA »
 
@@ -251,7 +251,7 @@ Ordre de tournage conseillé : 1, 2, 3 (datés en premier), puis 4 et 5, puis le
 
 ### 11. Mal au dos, fini le soulevé de terre
 
-**HOOK écran :** « Mal au dos ? Fini le soulevé de terre ? »
+**HOOK écran :** « Mal au dos, fini le soulevé ? »
 
 **VO :** Tu as eu mal au dos une fois, et depuis, le soulevé de terre est banni. D'abord une règle : une douleur qui dure, c'est pour un médecin ou un kiné, pas pour une vidéo. Ça, c'est réglé. Maintenant, pour un dos sain qui a juste pris une mauvaise séance : le soulevé de terre, c'est ramasser quelque chose au sol. Tu vas le faire mille fois dans ta vie, avec ton fils, avec les courses. Le mouvement n'est pas dangereux. Ce qui l'a été, c'est la charge, ou le geste jamais appris. On repart à vide, on apprend à garder le dos placé, on charge lentement. Un dos qu'on ne fait plus travailler n'est pas protégé. Il s'affaiblit.
 
@@ -293,7 +293,7 @@ Ordre de tournage conseillé : 1, 2, 3 (datés en premier), puis 4 et 5, puis le
 
 **HOOK écran :** « Sauter le petit-déj fait maigrir ? »
 
-**VO :** « Je saute le petit-déj, je mange entre midi et 20h, et le gras part tout seul. » Le jeûne intermittent n'a rien de magique. Quand il marche, c'est parce que tu manges moins, tout simplement : moins d'heures pour manger, moins d'occasions. À calories égales, une fenêtre de huit heures ou trois repas classiques donnent le même résultat. Ce n'est pas le vide qui fait maigrir, c'est le total. Alors pourquoi ça plaît ? Parce que c'est une règle simple. Pour certains, une règle simple, ça tient. Pour d'autres, ça finit en fringale à 21h devant le frigo. Le jeûne est un outil, pas une méthode miracle. Si ça te va, garde-le. Sinon, garde ton petit-déj, et compte ta journée.
+**VO :** « Je saute le petit-déj, je mange entre midi et 20h, et le gras part tout seul. » Le jeûne intermittent n'a rien de magique. Quand il marche, c'est parce que tu manges moins : moins d'heures pour manger, moins d'occasions. À calories égales, une fenêtre de huit heures ou trois repas classiques donnent le même résultat. Ce n'est pas le vide qui fait maigrir, c'est le total. Alors pourquoi ça plaît ? Parce que c'est une règle simple. Pour certains, une règle simple, ça tient. Pour d'autres, ça finit en fringale à 21h devant le frigo. Le jeûne est un outil, pas une méthode miracle. Si ça te va, garde-le. Sinon, garde ton petit-déj, et compte ta journée.
 
 **CTA :** « Une assiette qui tient toute l'année, sans fenêtre ni interdit, c'est dans mon Programme Maison, lien en bio. » → Programme Maison 29,99 €
 
@@ -353,7 +353,7 @@ Ordre de tournage conseillé : 1, 2, 3 (datés en premier), puis 4 et 5, puis le
 
 **HOOK écran :** « Des pâtes le soir, ça fait grossir ? »
 
-**VO :** « Pas de féculents le soir, sinon je stocke et je dors mal. » Deux idées fausses en une phrase. Sur le gras : ce qui compte, c'est le total de la journée, pas l'heure à laquelle les féculents arrivent. Sur le sommeil : un repas avec des féculents le soir a plutôt tendance à faciliter l'endormissement chez la plupart des gens, pas à l'empêcher. Ce qui casse vraiment ton sommeil, c'est le café de 16h, l'écran au lit, et le repas énorme avalé à 22h. Pas l'assiette de riz. Tu es papa, tes nuits sont déjà courtes. Ne te prive pas en plus du repas qui t'aide à dormir. Ce n'est pas le riz qui t'empêche de dormir. C'est le téléphone.
+**VO :** « Pas de féculents le soir, sinon je stocke et je dors mal. » Deux idées fausses en une phrase. Sur le gras : ce qui compte, c'est le total de la journée, pas l'heure à laquelle les féculents arrivent. Sur le sommeil : un repas avec des féculents le soir a plutôt tendance à faciliter l'endormissement, pas à l'empêcher. Ce qui casse vraiment ton sommeil, c'est le café de 16h, l'écran au lit, et le repas énorme avalé à 22h. Pas l'assiette de riz. Tu es papa, tes nuits sont déjà courtes. Ne te prive pas en plus du repas qui t'aide à dormir. Ce n'est pas le riz qui t'empêche de dormir. C'est le téléphone.
 
 **CTA :** « Des repas normaux, le soir aussi : la partie nutrition de mon Programme Maison, lien en bio. » → Programme Maison 29,99 €
 
@@ -373,7 +373,7 @@ Ordre de tournage conseillé : 1, 2, 3 (datés en premier), puis 4 et 5, puis le
 
 **HOOK écran :** « Que du tapis, par peur des machines ? »
 
-**VO :** Tu arrives à la salle, tu montes sur le tapis, quarante minutes, et tu repars. Pas parce que tu adores marcher. Parce que les machines de muscu te font peur : trop de réglages, du monde autour, et personne pour t'expliquer. Alors voilà deux machines pour commencer, les plus sûres de la salle. La presse à cuisses : tu es assis, le dos calé, tu pousses avec les jambes. Aucune charge sur le dos, impossible de tomber. Et le tirage vertical, poignée large : assis, cuisses bloquées, tu tires la barre vers le haut de la poitrine. Tout le dos travaille, et le mouvement est guidé. Deux machines, deux réglages chacune, dix minutes. Le tapis, c'est ton échauffement. Pas ta séance.
+**VO :** Tu arrives à la salle, tu montes sur le tapis, quarante minutes, et tu repars. Pas parce que tu adores marcher. Parce que les machines de muscu te font peur : trop de réglages, du monde autour, et personne pour t'expliquer. Alors voilà deux machines pour commencer, les plus sûres. La presse à cuisses : tu es assis, le dos calé, tu pousses avec les jambes. Aucune charge sur le dos, impossible de tomber. Et le tirage vertical, poignée large : assis, cuisses bloquées, tu tires la barre vers le haut de la poitrine. Tout le dos travaille, et le mouvement est guidé. Deux machines, deux réglages chacune, dix minutes. Le tapis, c'est ton échauffement. Pas ta séance.
 
 **CTA :** « Les réglages de chaque machine sont montrés en vidéo dans mon Programme Débutant, lien en bio. » → Programme Débutant 29 €
 
@@ -393,11 +393,11 @@ Ordre de tournage conseillé : 1, 2, 3 (datés en premier), puis 4 et 5, puis le
 
 **HOOK écran :** « Une semaine ratée, tout est perdu ? »
 
-**VO :** Enfant malade, semaine de fou au boulot, deux nuits blanches. Tu n'as pas mis un pied à la salle. Et dans ta tête : « c'est mort, faut tout recommencer. » Non. Une semaine sans entraînement, tu ne perds rien. Ta force reste là plusieurs semaines. Il faut un mois, parfois plus, pour commencer à reculer vraiment. Ce qui te fait reculer, c'est la phrase d'après : « puisque c'est foutu, je reprends lundi prochain. » Et lundi prochain devient dans deux mois. Un papa qui tient sur l'année, ce n'est pas un papa qui ne rate jamais. C'est un papa qui rate une semaine et revient la suivante, sans se punir. Rater une semaine, ça fait partie du plan. Rater la reprise, non.
+**VO :** Enfant malade, semaine de fou au boulot, deux nuits blanches. Tu n'as pas mis un pied à la salle. Et dans ta tête : « c'est mort, faut tout recommencer. » Non. Une semaine sans entraînement, tu ne perds rien. Ta force reste là plusieurs semaines. Ce qui te fait reculer, c'est la phrase d'après : « puisque c'est foutu, je reprends lundi prochain. » Et lundi prochain devient dans deux mois. Un papa qui tient sur l'année, ce n'est pas un papa qui ne rate jamais. C'est un papa qui rate une semaine et revient la suivante, sans se punir. Rater une semaine, ça fait partie du plan. Rater la reprise, non.
 
 **CTA :** « Si tes semaines sont imprévisibles et que tu veux un plan qui survit à ça, envoie-moi "PAPA" en message privé. » → DM « PAPA »
 
-**Titre YouTube :** Une semaine sans sport et tout est perdu ? Voilà ce qui est vraiment perdu
+**Titre YouTube :** Une semaine sans sport, tout est perdu ? Voilà ce qui l'est vraiment
 
 **Description :** Une semaine ratée ne te fait rien perdre. Ce qui coûte, c'est de repousser la reprise. Rater une semaine fait partie du plan. https://coach-neiram.netlify.app #papa #regularite #reprisedusport
 
@@ -433,7 +433,7 @@ Ordre de tournage conseillé : 1, 2, 3 (datés en premier), puis 4 et 5, puis le
 
 **HOOK écran :** « Avoir faim, c'est obligé pour maigrir ? »
 
-**VO :** « Si j'ai pas faim, c'est que je perds pas. » Alors tu serres les dents, tu tiens dix jours, et le onzième soir tu vides le placard. Et tu recommences le mois suivant. Ce n'est pas un manque de volonté. Un régime qui te fait souffrir de la faim, c'est un régime qui a déjà perdu, parce que personne ne tient la faim des mois. Perdre du gras, ça demande de manger un peu moins que ce que tu dépenses. Un peu. Pas la moitié. Assez de protéines, des légumes qui remplissent, des repas normaux, et un écart que tu sens à peine. C'est plus lent. Mais ça, tu le tiens un an. La faim n'est pas la preuve que ça marche. C'est la preuve que ça ne tiendra pas.
+**VO :** « Si j'ai pas faim, c'est que je perds pas. » Alors tu serres les dents, tu tiens dix jours, et le onzième soir tu vides le placard. Ce n'est pas un manque de volonté. Un régime qui te fait souffrir de la faim, c'est un régime qui a déjà perdu, parce que personne ne tient la faim des mois. Perdre du gras, ça demande de manger un peu moins que ce que tu dépenses. Pas la moitié. Assez de protéines, des légumes qui remplissent, et un écart que tu sens à peine. C'est plus lent. Mais ça, tu le tiens un an. La faim n'est pas la preuve que ça marche. C'est la preuve que ça ne tiendra pas.
 
 **CTA :** « Des repas normaux et un plan que tu tiens, c'est mon Programme Maison, lien en bio. » → Programme Maison 29,99 €
 
@@ -453,11 +453,11 @@ Ordre de tournage conseillé : 1, 2, 3 (datés en premier), puis 4 et 5, puis le
 
 **HOOK écran :** « Deux séances par semaine, inutile ? »
 
-**VO :** « Si je peux pas y aller tous les jours, autant pas commencer. » C'est la phrase qui garde le plus de papas sur le canapé. Voilà ce que je vois avec ceux que je suis : deux séances par semaine, bien construites, et en trois mois ils portent leurs enfants sans y penser, ils dorment mieux, ils ont retrouvé du souffle. Pourquoi ? Parce que le muscle se construit entre les séances, pendant que tu récupères. S'entraîner tous les jours quand tu dors cinq heures, ce n'est pas plus vite. C'est plus vite cassé. Deux séances tenues cinquante-deux semaines battent sept séances tenues trois semaines. Ce n'est pas la fréquence qui fait le résultat. C'est la durée pendant laquelle tu tiens.
+**VO :** « Si je peux pas y aller tous les jours, autant pas commencer. » C'est la phrase qui garde le plus de papas sur le canapé. Voilà ce que je vois avec ceux que je suis : deux séances par semaine, et en trois mois ils portent leurs enfants sans y penser, ils dorment mieux, ils ont retrouvé du souffle. Pourquoi ? Parce que le muscle se construit entre les séances, pendant que tu récupères. S'entraîner tous les jours quand tu dors cinq heures, ce n'est pas plus vite. C'est plus vite cassé. Deux séances tenues cinquante-deux semaines battent sept séances tenues trois semaines. Ce n'est pas la fréquence qui fait le résultat. C'est la durée pendant laquelle tu tiens.
 
 **CTA :** « Deux séances qui tiennent dans ta semaine, c'est ce qu'on construit ensemble : envoie-moi "PAPA" en message privé. » → DM « PAPA »
 
-**Titre YouTube :** S'entraîner tous les jours = résultats plus vite ? Pas quand tu es papa
+**Titre YouTube :** Tous les jours = plus vite ? Pas quand tu es papa
 
 **Description :** Le muscle se construit entre les séances. Deux séances tenues sur l'année battent sept séances tenues trois semaines. https://coach-neiram.netlify.app #papa #regularite #musculation
 
