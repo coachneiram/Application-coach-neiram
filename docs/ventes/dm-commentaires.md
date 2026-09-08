@@ -14,7 +14,9 @@ Un commentaire « PAPA » ouvre un DM. Un commentaire flatteur ou une question t
 
 Vouvoiement : règle de Marien (prospect = vous). Sur Instagram, après un Short en tutoiement, le vouvoiement peut paraître raide ; Marien tranche. La séquence est écrite en vouvoiement, une variante en tutoiement est possible d'un mot.
 
-## Message 1 — dans les 2 heures après le commentaire (niveau B une fois validé)
+## Message 1 — sous 30 minutes après le commentaire (niveau B une fois validé)
+
+Délai issu du chapitre 15 de la vidéo : à 24 h la personne a oublié qu'elle a commenté (« j'ai pas compris de quelle ressource tu parles »). Passer la journée annule le commentaire. Conséquence pratique : publier à une heure où Marien peut répondre dans la demi-heure qui suit (pas avant une séance d'une heure), et activer les notifications de commentaires sur le compte.
 
 > Bonjour {prénom}, voici la méthode en 1 page promise sous ma vidéo. [PDF « Le Créneau Protégé en 1 page », `docs/acquisition/lead-magnet-papa.md`] Question directe pour que je vous oriente : aujourd'hui, ce qui vous empêche de reprendre, c'est plutôt le temps, l'énergie le soir, ou vous ne savez pas par quoi commencer ?
 
@@ -43,6 +45,14 @@ Une relance à J+2 (« Je vous laisse tranquille après ce message : si vous vou
 ## CRM
 
 Chaque commentaire « PAPA » qui reçoit un DM entre dans le CRM : `node tools/crm.mjs lead --prenom <prénom> --source Instagram --relance-jours 2`. Chaque réponse : `node tools/crm.mjs interaction`. Le compte des commentaires, DM envoyés, réponses, appels et ventes par Short alimente la mesure à J+14 du calendrier.
+
+## Manuel, puis Clara, puis automatisation (chapitre 15)
+
+Ordre du créateur : faire les conversations soi-même, puis confier à un setter, puis automatiser seulement à partir de 20 à 30 commentaires par jour. Cela confirme la mise en pause de ManyChat décidée le 06/09 : le tunnel rédigé (`docs/acquisition/tunnel-manychat.md`) se réactive quand le seuil est atteint, pas avant. Étape 2 = Clara prend les DM entrants avec cette séquence ; Marien garde l'appel.
+
+## Les seules métriques (chapitre 15, 16:56)
+
+Par Short : nombre de commentaires avec le mot-code, nombre de conversations ouvertes (réponse au message 1), nombre d'appels proposés, tenus, ventes. Les vues et les abonnés se lisent, ils ne se pilotent pas. Le rapport du lundi reprend ces cinq chiffres.
 
 ## Ce que Marien fait, ce que l'équipe fait
 

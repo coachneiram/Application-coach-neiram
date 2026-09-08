@@ -38,7 +38,19 @@ Publication : cross-post identique YouTube Shorts + Reels + TikTok, sans waterma
 
 Les cinq contenus qui restaient à écrire (18/09, 22/09, 25/09, 26/09, 27/09) sont rédigés dans `docs/acquisition/scripts-lot-2026-09.md` (scripts 1 à 5, section A), avec les points à vérifier par Marien avant enregistrement (section finale du lot). Les scripts J1-J5, J7, J9, J10, J13 viennent du `Pack_lancement_chaîne.md` du Drive, inchangés.
 
+## Appels à l'action : point à trancher (ajout du 08/09, chapitres 14-16 de la vidéo « < 1000 abonnés »)
+
+Le créateur demande un mot-code en commentaire sur 70 à 80 % des contenus de qualification, jamais un clic ni « abonne-toi ». Dans ce calendrier, 9 contenus sur 14 renvoient vers le Programme Débutant 29 € par le lien en bio, donc un clic. Deux options :
+
+1. Garder le lien bio pour les 9 contenus débutant (vente directe à 29 €, aucun DM à gérer) et réserver le mot-code PAPA aux 5 contenus papa. Simple, cohérent avec « papa d'abord » côté conversations.
+2. Ajouter un second mot-code « PLAN » sur les contenus débutant, avec une page gratuite « Ta première semaine en salle », puis proposer le Programme Débutant en DM. Plus de conversations, mais chaque DM de vente d'un produit à 29 € prend le même temps qu'un DM Créneau Protégé.
+
+Recommandation : option 1 pour cette quinzaine. Mesurer à J+14 si les contenus débutant vendent par le lien ; sinon passer à l'option 2.
+
 ## Mesure à J+14 (dimanche 27/09 au soir)
+
+Métriques principales (chapitre 15 de la vidéo) : commentaires « PAPA », conversations ouvertes, appels proposés, appels tenus, ventes. Le reste est secondaire.
+
 
 - Vues YouTube, Reels, TikTok par Short (tableau de bord du pack, `Pack_lancement_chaîne.md` section 6).
 - Clics sur le lien bio (`coach-neiram.netlify.app`), lus dans Payhip + demandes de formulaire.
