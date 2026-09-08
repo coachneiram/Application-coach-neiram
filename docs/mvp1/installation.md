@@ -44,7 +44,17 @@ node tools/crm.mjs lead --prenom Test --source Autre --dry-run
 
 La première commande doit afficher tous les tests verts. La deuxième doit répondre `{"ok":true,"relances":[]}` si le script est déployé. Supprime ensuite toute ligne « Test » créée par erreur.
 
-## 5. Écriture dans les classeurs Programme (nouveau modèle)
+## 5. L'onglet Shorts (ajout du 08/09/2026)
+
+Le script crée aussi un onglet « Shorts » : une ligne par contenu publié avec cinq compteurs (commentaires avec mot-code, conversations ouvertes, appels proposés, appels tenus, ventes) et les vues à titre indicatif. Pour l'obtenir sur un classeur déjà installé : recoller la dernière version de `apps-script/crm.gs`, exécuter `installer` une fois (il ne touche pas aux onglets existants), puis « Déployer → Gérer les déploiements → modifier → nouvelle version ».
+
+```
+node tools/crm.mjs short --titre "Le sport ou ta famille ?" --cible Papa --mot-code PAPA --date 18/09/2026
+node tools/crm.mjs short-maj --short S-20260918-001 --commentaires 11 --conversations 5
+node tools/crm.mjs shorts --limite 14
+```
+
+## 6. Écriture dans les classeurs Programme (nouveau modèle)
 
 Le même script écrit aussi dans les classeurs `Programme_<client>` bâtis sur le nouveau modèle (onglets « BLOC 1 », « BLOC 2 »), sans configuration séparée : `CRM_URL` et `CRM_SECRET` suffisent, une fois le script redéployé avec les actions `readProgrammeJour` / `writeProgrammeJour` / `clearProgrammeJour` (étape 2, « Déployer → Gérer les déploiements → modifier → nouvelle version »).
 
@@ -54,11 +64,11 @@ node tools/programme.mjs jour-lecture --sheet <ID du classeur> --bloc 1 --jour 5
 
 `tools/programme.mjs` (commandes `jour`, `jour-lecture`, `jour-effacer`) ne touche jamais aux colonnes RPE, Commentaires Client ou Vidéo (formule) : seules Exercices, Séries, Répétitions, Intensité, Récupération, Consignes et S1 à S4 sont écrites.
 
-## 6. Le rapport du lundi
+## 7. Le rapport du lundi
 
 Une Routine hebdomadaire (lundi 7 h, heure de Paris, identifiant `trig_018oJMRejWmgQDWfAz6crvb5`) relance cette session, exécute le skill `rapport-lundi` et dépose le rapport en **brouillon** dans ta boîte Gmail. Rien n'est envoyé. Limite connue : une Routine créée depuis une session ne transporte pas les connecteurs (Drive, Gmail). Si le rapport du lundi signale « connecteur indisponible », il aura utilisé le dernier export en cache et écrit le rapport dans `docs/rapports/`. Dans ce cas, recrée la Routine depuis claude.ai/code → Routines en cochant les connecteurs Google Drive et Gmail, avec le même texte de consigne (il est dans `.claude/skills/rapport-lundi/SKILL.md`). Si tu ne veux plus de la Routine : dis-le dans la session, ou désactive-la dans claude.ai/code → Routines.
 
-## 7. À me donner quand tu peux
+## 8. À me donner quand tu peux
 
 - Le périmètre exact de Clara (voir `memory/equipe.md`).
 - Un export ou des captures d'Instagram Insights (90 jours).

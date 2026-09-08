@@ -2,7 +2,7 @@
  * CRM CoachNeiram — script du classeur Google Sheets.
  *
  * Deux usages :
- *  1. installer() : crée les onglets Leads, Interactions, Clients, Parametres
+ *  1. installer() : crée les onglets Leads, Interactions, Clients, Shorts, Parametres
  *     avec leurs en-têtes et listes déroulantes. Idempotent : ne détruit rien.
  *  2. Web app (doPost / doGet) : reçoit les commandes de tools/crm.mjs,
  *     protégée par un secret partagé stocké dans les propriétés du script.
@@ -23,8 +23,15 @@ var ONGLETS = {
     "ID", "Prénom", "Nom", "Canal", "Offre", "Tarif mensuel", "Date début", "Durée (mois)",
     "Date fin", "Source", "Statut", "Raison arrêt", "Lead ID", "Notes"
   ],
+  Shorts: [
+    "ID", "Date", "Titre", "Cible", "Mot-code", "Vues", "Commentaires mot-code", "Conversations",
+    "Appels proposés", "Appels tenus", "Ventes", "Notes"
+  ],
   Parametres: ["Clé", "Valeur"]
 };
+var CIBLES_SHORT = ["Papa", "Débutant", "Les deux"];
+var COMPTEURS_SHORT = { vues: "Vues", commentaires: "Commentaires mot-code", conversations: "Conversations",
+  appelsProposes: "Appels proposés", appelsTenus: "Appels tenus", ventes: "Ventes" };
 
 var STATUTS = ["Nouveau", "Contacté", "Qualifié", "Conversation", "Appel", "Proposition",
   "Relance", "Client", "Fidélisation", "Renouvellement", "Recommandation", "Perdu"];
@@ -66,6 +73,7 @@ function installer() {
   listeDeroulante("Clients", "Canal", CANAUX_CLIENT);
   listeDeroulante("Clients", "Statut", STATUTS_CLIENT);
   listeDeroulante("Clients", "Source", SOURCES);
+  listeDeroulante("Shorts", "Cible", CIBLES_SHORT);
   var params = feuille_("Parametres");
   if (params.getLastRow() < 2) {
     params.getRange(2, 1, 2, 2).setValues([["objectif_mensuel", 4000], ["relances_max", 3]]);
@@ -125,6 +133,9 @@ function traiter_(corps) {
     case "listRelances": return listerRelances_(corps.date);
     case "listLeads": return listerLeads_(corps.statut, corps.assigne);
     case "listClients": return listerClients_();
+    case "addShort": return ajouterShort_(corps.short || {});
+    case "updateShort": return mettreAJourShort_(corps.shortId, corps.champs || {});
+    case "listShorts": return listerShorts_(corps.limite);
     case "readProgrammeJour": return lireJourProgramme_(corps);
     case "writeProgrammeJour": return ecrireJourProgramme_(corps);
     case "clearProgrammeJour": return effacerJourProgramme_(corps);
@@ -393,6 +404,53 @@ function listerLeads_(statut, assigne) {
       prochaine: l["Prochaine action"], relance: l["Date relance"], derniere: l["Dernière interaction"], interet: l["Intérêt (1-5)"] };
   });
   return { ok: true, leads: liste };
+}
+
+/* ---------- Shorts : commentaires et conversations par contenu (les seules métriques) ---------- */
+
+function entierOuVide_(v) {
+  if (v === undefined || v === null || v === "") return "";
+  var n = Number(v);
+  if (isNaN(n) || n < 0) throw new Error("compteur invalide : " + v);
+  return Math.round(n);
+}
+
+function ajouterShort_(sh) {
+  if (!sh.titre) throw new Error("titre obligatoire");
+  if (sh.cible) verifierDans_(sh.cible, CIBLES_SHORT, "cible");
+  var feuille = feuille_("Shorts");
+  var id = nouvelId_("S", feuille);
+  var date = sh.date ? texte_(sh.date) : aujourdhui_();
+  feuille.appendRow([id, date, texte_(sh.titre), sh.cible || "", texte_(sh.motCode || ""),
+    entierOuVide_(sh.vues), entierOuVide_(sh.commentaires), entierOuVide_(sh.conversations),
+    entierOuVide_(sh.appelsProposes), entierOuVide_(sh.appelsTenus), entierOuVide_(sh.ventes), texte_(sh.notes || "")]);
+  return { ok: true, shortId: id };
+}
+
+function mettreAJourShort_(shortId, champs) {
+  var feuille = feuille_("Shorts");
+  var ligne = ligneLead_(feuille, shortId);
+  if (!ligne) throw new Error("short introuvable : " + shortId);
+  var modifies = 0;
+  Object.keys(COMPTEURS_SHORT).forEach(function (cle) {
+    if (champs[cle] !== undefined && champs[cle] !== "") {
+      feuille.getRange(ligne, ONGLETS.Shorts.indexOf(COMPTEURS_SHORT[cle]) + 1).setValue(entierOuVide_(champs[cle]));
+      modifies++;
+    }
+  });
+  if (champs.notes) { feuille.getRange(ligne, ONGLETS.Shorts.indexOf("Notes") + 1).setValue(texte_(champs.notes)); modifies++; }
+  return { ok: true, shortId: shortId, modifies: modifies };
+}
+
+function listerShorts_(limite) {
+  var liste = lireObjets_("Shorts");
+  var n = Number(limite) > 0 ? Number(limite) : 14;
+  var derniers = liste.slice(-n);
+  var totaux = {};
+  Object.keys(COMPTEURS_SHORT).forEach(function (cle) {
+    totaux[cle] = derniers.reduce(function (acc, sh) { return acc + (Number(sh[COMPTEURS_SHORT[cle]]) || 0); }, 0);
+  });
+  return { ok: true, shorts: derniers, totaux: totaux };
 }
 
 function listerClients_() {

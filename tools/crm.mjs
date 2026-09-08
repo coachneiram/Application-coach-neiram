@@ -13,6 +13,9 @@
  *   relances    [--date JJ/MM/AAAA]
  *   clients
  *   leads       [--statut S] [--assigne X]
+ *   short       --titre "…" [--date JJ/MM/AAAA --cible Papa|Débutant|"Les deux" --mot-code PAPA --vues N --commentaires N --conversations N --appels-proposes N --appels-tenus N --ventes N --notes]
+ *   short-maj   --short S-AAAAMMJJ-nnn [--commentaires N --conversations N --appels-proposes N --appels-tenus N --ventes N --vues N --notes]
+ *   shorts      [--limite N]   (derniers contenus + totaux : les seules métriques Instagram)
  */
 
 export const STATUTS = [
@@ -51,6 +54,21 @@ function verifierAssigne(a) {
 }
 
 /** Construit la charge utile envoyée au script, sans le secret. */
+const CIBLES_SHORT = ["Papa", "Débutant", "Les deux"];
+const COMPTEURS = { vues: "vues", commentaires: "commentaires", conversations: "conversations",
+  "appels-proposes": "appelsProposes", "appels-tenus": "appelsTenus", ventes: "ventes" };
+
+function compteursShort(opts) {
+  const out = {};
+  for (const [option, cle] of Object.entries(COMPTEURS)) {
+    const v = opts[option];
+    if (v === undefined || v === "") { out[cle] = ""; continue; }
+    if (!(Number(v) >= 0)) throw new Error(`--${option} doit être un nombre positif`);
+    out[cle] = Number(v);
+  }
+  return out;
+}
+
 export function construireCharge(commande, opts) {
   switch (commande) {
     case "lead": {
@@ -88,6 +106,19 @@ export function construireCharge(commande, opts) {
       verifierStatut(opts.statut);
       return { action: "updateLead", leadId: opts.lead, champs: { statut: opts.statut, resultat: opts.resultat ?? "" } };
     }
+    case "short": {
+      exiger(opts, "titre");
+      if (opts.cible && !CIBLES_SHORT.includes(opts.cible)) throw new Error(`--cible doit être parmi : ${CIBLES_SHORT.join(", ")}`);
+      return { action: "addShort", short: { date: opts.date ?? "", titre: opts.titre, cible: opts.cible ?? "", motCode: opts["mot-code"] ?? "", notes: opts.notes ?? "", ...compteursShort(opts) } };
+    }
+    case "short-maj": {
+      exiger(opts, "short");
+      const champs = { ...compteursShort(opts), notes: opts.notes ?? "" };
+      if (!Object.values(champs).some((v) => v !== "")) throw new Error("rien à mettre à jour : donne au moins un compteur (--commentaires, --conversations, ...)");
+      return { action: "updateShort", shortId: opts.short, champs };
+    }
+    case "shorts":
+      return { action: "listShorts", limite: opts.limite ?? "" };
     case "relances":
       return { action: "listRelances", date: opts.date ?? "" };
     case "clients":

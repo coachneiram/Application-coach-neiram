@@ -45,3 +45,23 @@ test("lead : --relance-jours est transmis au script, valeur invalide refusée", 
   assert.equal(charge.lead.relance, "");
   assert.throws(() => construireCharge("lead", { prenom: "A", source: "B", "relance-jours": "demain" }), /relance-jours/);
 });
+
+test("short : compteurs convertis, cible vérifiée", () => {
+  const { commande, opts } = lireArgs(["short", "--titre", "Le sport ou ta famille ?", "--cible", "Papa", "--mot-code", "PAPA", "--commentaires", "11", "--conversations", "5"]);
+  const charge = construireCharge(commande, opts);
+  assert.equal(charge.action, "addShort");
+  assert.equal(charge.short.motCode, "PAPA");
+  assert.equal(charge.short.commentaires, 11);
+  assert.equal(charge.short.conversations, 5);
+  assert.equal(charge.short.ventes, "");
+  assert.throws(() => construireCharge("short", { titre: "x", cible: "Golfeur" }), /--cible/);
+  assert.throws(() => construireCharge("short", { titre: "x", commentaires: "-1" }), /--commentaires/);
+});
+
+test("short-maj et shorts", () => {
+  const maj = construireCharge("short-maj", { short: "S-20260918-001", ventes: "2" });
+  assert.equal(maj.action, "updateShort");
+  assert.equal(maj.champs.ventes, 2);
+  assert.throws(() => construireCharge("short-maj", { short: "S-1" }), /rien à mettre à jour/);
+  assert.equal(construireCharge("shorts", { limite: "7" }).limite, "7");
+});
