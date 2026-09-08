@@ -48,6 +48,8 @@ Les trois follow ads demandent « abonne-toi ». C'est exactement le mécanisme 
 FA1 dit « les mecs qui reprennent le sport après 40 ans » alors que l'avatar est un papa de 28 à 45 ans : l'âge devient le critère à la place de la paternité, et Meta optimisera dessus. Les hooks H01 (« tu les regardes jouer sans toi ») et H02 (« tu crois que c'est l'âge ») frôlent l'angle « peur de mal vieillir devant ses enfants », que `memory/positionnement.md` réserve explicitement aux gens qui connaissent déjà Marien, pas à une première publicité.
 *Falsifiable par* : décision de Marien assumant le changement d'avatar, ou correction des deux formulations.
 
+**Renforcement de l'objection 5 (document source lu le 08/09)** : le document complet `ADS Marien PELISSIER` contient, avant les créas, les douleurs, fausses solutions et cinq angles écrits par Marien le 30/08. L'angle 3 « Peur de vieillir mal devant ses enfants » y porte sa propre consigne : « à utiliser plutôt sur des gens qui me connaissent déjà, pas en première pub ». La créa clean l'utilise en première pub, hooks H01 et H02. L'objection ne vient donc pas de la mémoire seule : elle vient de la consigne de Marien figurant dans le document remis au rédacteur. L'angle 2 « il n'ose pas demander à sa femme », marqué sensible, n'est utilisé nulle part : correct.
+
 ### Points mineurs à corriger avant tournage
 
 - « Bilan de créneau, quinze minutes » contre l'événement Calendly réel : appel découverte de 30 minutes. Aligner le nom et la durée, et décider qui le reçoit (Clara aura Calendly, `memory/equipe.md`).
