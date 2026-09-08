@@ -125,12 +125,156 @@ function traiter_(corps) {
     case "listRelances": return listerRelances_(corps.date);
     case "listLeads": return listerLeads_(corps.statut, corps.assigne);
     case "listClients": return listerClients_();
+    case "readProgrammeJour": return lireJourProgramme_(corps);
+    case "writeProgrammeJour": return ecrireJourProgramme_(corps);
+    case "clearProgrammeJour": return effacerJourProgramme_(corps);
     default: throw new Error("action inconnue : " + corps.action);
   }
 }
 
 function texte_(v) {
   return String(v == null ? "" : v).slice(0, LONGUEUR_MAX);
+}
+
+// ───────────── Écriture des blocs de programme (Programme_<client>) ─────────────
+//
+// Ne s'applique qu'aux classeurs bâtis sur le nouveau modèle (onglets « BLOC 1 »,
+// « BLOC 2 », en-têtes Exercices/Séries/Répétitions/Intensité/Récupération/
+// Consignes/S1..S4). Les colonnes RPE, Commentaires Client et Vidéo (formule)
+// ne sont jamais écrites ni effacées. Repérage par le texte des cellules, pas
+// par un numéro de ligne fixe : robuste à de petites différences entre classeurs.
+
+var ENTETES_JOUR_PROGRAMME = ["Exercices", "Séries", "Répétitions", "Récupération", "Consignes", "S1", "S2", "S3", "S4"];
+var MAX_EXERCICES_JOUR = 12;
+
+function classeurProgramme_(spreadsheetId) {
+  if (!spreadsheetId) throw new Error("spreadsheetId obligatoire");
+  try {
+    return SpreadsheetApp.openById(spreadsheetId);
+  } catch (err) {
+    throw new Error("classeur introuvable ou accès refusé : " + spreadsheetId);
+  }
+}
+
+function feuilleBloc_(classeur, bloc) {
+  var b = Number(bloc);
+  if (b !== 1 && b !== 2) throw new Error("bloc doit être 1 ou 2");
+  var feuille = classeur.getSheetByName("BLOC " + b);
+  if (!feuille) throw new Error("onglet « BLOC " + b + " » introuvable dans ce classeur");
+  return feuille;
+}
+
+/** Repère la ligne « JOUR n », la ligne d'en-têtes qui suit, les colonnes utiles,
+ *  et la dernière ligne inscriptible avant le prochain repère « JOUR ». */
+function reperesJourProgramme_(feuille, jour) {
+  var j = Number(jour);
+  if (!(j >= 1 && j <= 6)) throw new Error("jour doit être compris entre 1 et 6");
+  var cible = "JOUR " + j;
+  var valeurs = feuille.getDataRange().getValues();
+  var ligneJour = -1;
+  for (var i = 0; i < valeurs.length && ligneJour < 0; i++) {
+    for (var c = 0; c < valeurs[i].length; c++) {
+      if (String(valeurs[i][c]).trim() === cible) { ligneJour = i; break; }
+    }
+  }
+  if (ligneJour < 0) throw new Error("repère « " + cible + " » introuvable dans cet onglet");
+
+  var ligneEntetes = -1;
+  var colonnes = {};
+  for (var e = ligneJour + 1; e < Math.min(ligneJour + 4, valeurs.length) && ligneEntetes < 0; e++) {
+    for (var c2 = 0; c2 < valeurs[e].length; c2++) {
+      var v = String(valeurs[e][c2]).trim();
+      if (v === "Exercices") { ligneEntetes = e; colonnes.Exercices = c2 + 1; }
+    }
+  }
+  if (ligneEntetes < 0) throw new Error("ligne d'en-têtes introuvable sous « " + cible + " »");
+  var ligneEnteteValeurs = valeurs[ligneEntetes];
+  for (var c3 = 0; c3 < ligneEnteteValeurs.length; c3++) {
+    var libelle = String(ligneEnteteValeurs[c3]).trim();
+    if (libelle === "Séries") colonnes.Séries = c3 + 1;
+    else if (libelle === "Répétitions") colonnes.Répétitions = c3 + 1;
+    else if (libelle.indexOf("Intensit") === 0) colonnes.Intensité = c3 + 1;
+    else if (libelle === "Récupération") colonnes.Récupération = c3 + 1;
+    else if (libelle === "Consignes") colonnes.Consignes = c3 + 1;
+    else if (libelle === "S1") colonnes.S1 = c3 + 1;
+    else if (libelle === "S2") colonnes.S2 = c3 + 1;
+    else if (libelle === "S3") colonnes.S3 = c3 + 1;
+    else if (libelle === "S4") colonnes.S4 = c3 + 1;
+  }
+  ENTETES_JOUR_PROGRAMME.forEach(function (nom) {
+    if (!colonnes[nom]) throw new Error("colonne « " + nom + " » introuvable dans l'en-tête du jour");
+  });
+
+  var premiereLigneData = ligneEntetes + 2; // +1 index→ligne, +1 pour passer l'en-tête
+  var ligneLimite = valeurs.length + 1;
+  for (var s = ligneEntetes + 1; s < valeurs.length; s++) {
+    var estRepere = false;
+    for (var c4 = 0; c4 < valeurs[s].length; c4++) {
+      if (/^JOUR \d+$/.test(String(valeurs[s][c4]).trim())) { estRepere = true; break; }
+    }
+    if (estRepere) { ligneLimite = s + 1; break; }
+  }
+  return { colonnes: colonnes, premiereLigne: premiereLigneData, derniereLigneAutorisee: ligneLimite - 1 };
+}
+
+function validerExercices_(exercices, reperes) {
+  if (!Array.isArray(exercices) || !exercices.length) throw new Error("exercices : liste non vide obligatoire");
+  if (exercices.length > MAX_EXERCICES_JOUR) throw new Error("trop d'exercices (max " + MAX_EXERCICES_JOUR + ")");
+  var placeDisponible = reperes.derniereLigneAutorisee - reperes.premiereLigne + 1;
+  if (exercices.length > placeDisponible) {
+    throw new Error("pas assez de place avant le prochain repère « JOUR » (" + placeDisponible + " lignes disponibles)");
+  }
+  exercices.forEach(function (ex, i) {
+    if (!ex || !ex.nom) throw new Error("exercice " + (i + 1) + " : nom obligatoire");
+  });
+}
+
+function ecrireJourProgramme_(corps) {
+  var classeur = classeurProgramme_(corps.spreadsheetId);
+  var feuille = feuilleBloc_(classeur, corps.bloc);
+  var reperes = reperesJourProgramme_(feuille, corps.jour);
+  validerExercices_(corps.exercices, reperes);
+  corps.exercices.forEach(function (ex, i) {
+    var ligne = reperes.premiereLigne + i;
+    feuille.getRange(ligne, reperes.colonnes.Exercices).setValue(texte_(ex.nom));
+    feuille.getRange(ligne, reperes.colonnes.Séries).setValue(texte_(ex.series));
+    feuille.getRange(ligne, reperes.colonnes.Répétitions).setValue(texte_(ex.repetitions));
+    feuille.getRange(ligne, reperes.colonnes.Intensité).setValue(texte_(ex.intensite));
+    feuille.getRange(ligne, reperes.colonnes.Récupération).setValue(texte_(ex.recuperation));
+    feuille.getRange(ligne, reperes.colonnes.Consignes).setValue(texte_(ex.consignes));
+    ["S1", "S2", "S3", "S4"].forEach(function (s) {
+      if (ex[s.toLowerCase()] !== undefined) feuille.getRange(ligne, reperes.colonnes[s]).setValue(texte_(ex[s.toLowerCase()]));
+    });
+  });
+  return { ok: true, spreadsheetId: corps.spreadsheetId, bloc: Number(corps.bloc), jour: Number(corps.jour), lignesEcrites: corps.exercices.length };
+}
+
+function lireJourProgramme_(corps) {
+  var classeur = classeurProgramme_(corps.spreadsheetId);
+  var feuille = feuilleBloc_(classeur, corps.bloc);
+  var reperes = reperesJourProgramme_(feuille, corps.jour);
+  var nbLignes = reperes.derniereLigneAutorisee - reperes.premiereLigne + 1;
+  var plage = feuille.getRange(reperes.premiereLigne, 1, nbLignes, feuille.getLastColumn()).getDisplayValues();
+  var lignes = plage.map(function (r) {
+    return {
+      nom: r[reperes.colonnes.Exercices - 1], series: r[reperes.colonnes.Séries - 1],
+      repetitions: r[reperes.colonnes.Répétitions - 1], intensite: r[reperes.colonnes.Intensité - 1],
+      recuperation: r[reperes.colonnes.Récupération - 1], consignes: r[reperes.colonnes.Consignes - 1],
+      s1: r[reperes.colonnes.S1 - 1], s2: r[reperes.colonnes.S2 - 1], s3: r[reperes.colonnes.S3 - 1], s4: r[reperes.colonnes.S4 - 1]
+    };
+  }).filter(function (l) { return l.nom; });
+  return { ok: true, spreadsheetId: corps.spreadsheetId, bloc: Number(corps.bloc), jour: Number(corps.jour), exercices: lignes };
+}
+
+function effacerJourProgramme_(corps) {
+  var classeur = classeurProgramme_(corps.spreadsheetId);
+  var feuille = feuilleBloc_(classeur, corps.bloc);
+  var reperes = reperesJourProgramme_(feuille, corps.jour);
+  var nbLignes = reperes.derniereLigneAutorisee - reperes.premiereLigne + 1;
+  ["Exercices", "Séries", "Répétitions", "Intensité", "Récupération", "Consignes", "S1", "S2", "S3", "S4"].forEach(function (nom) {
+    feuille.getRange(reperes.premiereLigne, reperes.colonnes[nom], nbLignes, 1).clearContent();
+  });
+  return { ok: true, spreadsheetId: corps.spreadsheetId, bloc: Number(corps.bloc), jour: Number(corps.jour), lignesEffacees: nbLignes };
 }
 
 function verifierDans_(valeur, liste, libelle) {
