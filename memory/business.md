@@ -43,7 +43,7 @@ Mis de côté (décision du 06/09) : offre golfeurs « Tenir la Carte ». Docume
 
 ## Canaux et présence
 
-- Instagram `@coachneiram` (statistiques non fournies).
+- Instagram `@coachneiram` : 2 399 abonnés, 36 publications, 56 100 vues sur 30 jours, 51 avis Google à 5,0 affichés en bio (capture du 08/09/2026). Bio actuelle générique (« Coaching sportif · Coach sportif · Clermont-Ferrand & en ligne »), mot-clé DM « COACHING », stories à la une Résultats / En ligne / En salle / Qui suis-je, post épinglé papa en première position. Refonte de bio proposée le 08/09 (mot-clé « PAPA », autorité, promesse papa).
 - Facebook « Coach Neiram » (≈ 222 mentions J'aime).
 - YouTube `@CoachNeiram` : vidéothèque d'exercices (Shorts) + chaîne à relancer avec 14 scripts « 1 mythe par jour » prêts.
 - TikTok : cross-post prévu, état inconnu.
