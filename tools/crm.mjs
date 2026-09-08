@@ -16,7 +16,10 @@
  *   short       --titre "…" [--date JJ/MM/AAAA --cible Papa|Débutant|"Les deux" --mot-code PAPA --vues N --commentaires N --conversations N --appels-proposes N --appels-tenus N --ventes N --notes]
  *   short-maj   --short S-AAAAMMJJ-nnn [--commentaires N --conversations N --appels-proposes N --appels-tenus N --ventes N --vues N --notes]
  *   shorts      [--limite N]   (derniers contenus + totaux : les seules métriques Instagram)
+ *   cash        [--jours N] [--json]   (Cash Engine : top 3 des opportunités commerciales du CRM)
  */
+
+import { opportunitesCash, formaterCash } from "./lib/cash.mjs";
 
 export const STATUTS = [
   "Nouveau", "Contacté", "Qualifié", "Conversation", "Appel", "Proposition",
@@ -159,8 +162,29 @@ export async function envoyer(charge, { url = process.env.CRM_URL, secret = proc
   return { envoye: true, donnees };
 }
 
+/** Cash Engine : lecture composite (leads + clients), analyse locale, top 3. */
+async function mainCash(opts) {
+  if (!process.env.CRM_URL || !process.env.CRM_SECRET) {
+    console.error("cash a besoin des données réelles du CRM : configure CRM_URL et CRM_SECRET (docs/mvp1/installation.md).");
+    process.exit(1);
+  }
+  const [rLeads, rClients] = await Promise.all([
+    envoyer({ action: "listLeads", statut: "", assigne: "" }),
+    envoyer({ action: "listClients" })
+  ]);
+  for (const r of [rLeads, rClients]) {
+    if (!r.envoye) { console.error("Échec :", r.raison); process.exit(1); }
+  }
+  const resultat = opportunitesCash(
+    { leads: rLeads.donnees.leads || [], clients: rClients.donnees.clients || [] },
+    { horizonJours: opts.jours ? Number(opts.jours) : 45 }
+  );
+  console.log(opts.json ? JSON.stringify(resultat, null, 2) : formaterCash(resultat));
+}
+
 async function main(argv) {
   const { commande, opts } = lireArgs(argv.slice(2));
+  if (commande === "cash") return mainCash(opts);
   const charge = construireCharge(commande, opts);
   if (opts["dry-run"] || !process.env.CRM_URL || !process.env.CRM_SECRET) {
     console.log("Charge utile (non envoyée) :");

@@ -6,7 +6,9 @@ Scripts Node sans dépendance. Ils lisent des exports locaux dans `data/cache/` 
 |---|---|---|
 | `kpi.mjs` | Export du Sheet `Suivi CA Coaching` (réponse brute du connecteur Drive) | CA par mois, encaissé vs attendu, écart à l'objectif, entrées et sorties |
 | `renouvellements.mjs` | CSV de l'onglet Clients du CRM | Clients dont l'engagement se termine dans N jours |
-| `crm.mjs` | Ligne de commande | Ajoute un lead, une interaction, change un statut, liste les relances dues |
+| `crm.mjs` | Ligne de commande | Ajoute un lead, une interaction, change un statut, liste les relances dues, suit les Shorts |
+| `crm.mjs cash` | CRM (leads + clients) | Cash Engine : top 3 des opportunités commerciales, avec potentiel, probabilité, effort et prochaine étape |
+| `lib/cash.mjs` | | Logique du Cash Engine (pure, testable sans réseau) |
 | `lib/sheet-md.mjs` | | Lecture des tables markdown renvoyées par le connecteur Drive |
 | `lib/csv.mjs`, `lib/dates.mjs` | | Utilitaires |
 
