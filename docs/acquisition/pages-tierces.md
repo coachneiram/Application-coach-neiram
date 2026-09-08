@@ -28,3 +28,25 @@ Rédigé le 08/09/2026 (agent Acquisition, skill `recherche`). Question : commen
 ## Définition de terminé
 
 Avant le 27/09 : une collaboration publiée avec la salle, trois pages locales contactées. Mesure : vues du Reel collaboratif contre la moyenne des autres, DM reçus dans les 48 h. Zéro réponse des pages locales en deux semaines : on laisse tomber ce canal jusqu'aux résultats des pubs.
+
+## Pages candidates (recherche du 08/09/2026)
+
+| Page | Audience (source, date) | Thème | Mode de collaboration | Pourquoi |
+|---|---|---|---|---|
+| @fitnessparkclermontlebrezet | ≈ 1 950 abonnés (Instagram, 09/2026). Un second compte @fitnessparkclermontbrezet existe : vérifier lequel est officiel | La salle où Marien coache | Publication en collaboration, gratuite | Audience = exactement les abonnés de la salle, dont les nouveaux qui reçoivent les bilans. Aucun coût, un accord à demander |
+| @ousortirclermont | ≈ 3 800 abonnés (Instagram, 09/2026) | Sorties, lieux, événements à Clermont | Relais ou publication payée, à demander | Audience locale, jeunes actifs |
+| @bons.plans.clermontferrand | non lue (Instagram bloqué ici) | Bons plans locaux | Relais d'une offre (Programme Débutant, bilan) | Format « bon plan » compatible avec un PDF à 29 € |
+| @intersport_clermontfd | ≈ 2 100 abonnés (Instagram, 09/2026) | Sport, équipement | Collaboration commerçant, échange de visibilité | Même clientèle débutante, magasin à proximité |
+| Annuaires Modash et Kolsquare « influenceurs Clermont-Ferrand » | listes de 20 à 40 profils (06/2026) | Sport, rugby, lifestyle local | À consulter par Marien depuis un navigateur pour repérer 2 profils fitness ou sport | Instagram inaccessible depuis cet environnement |
+
+Sources : Modash (juin 2026), Kolsquare, Instagram (pages publiques), Facebook.
+
+## Message pour la salle (à envoyer par Marien, canal habituel avec le responsable)
+
+> Salut, une idée pour la page Instagram du club. Je publie à partir du 14 septembre une vidéo courte par jour qui démonte un mythe du fitness pour les débutants, sans jargon, tournée à la salle. Je peux publier la première en collaboration avec la page du club : elle apparaît sur les deux comptes, ça met en avant le coaching chez vous sans rien vous coûter. Vous acceptez l'invitation de collaboration quand elle arrive, c'est tout. Ça vous va ?
+
+## Ordre d'approche
+
+1. La salle, dès demain. Si oui, le Reel du lundi 14/09 (J1) part en collaboration.
+2. @ousortirclermont et @bons.plans.clermontferrand, avec le message d'approche de la section précédente, après validation de Marien.
+3. Les profils fitness locaux des annuaires, seulement si les deux premiers ne répondent pas.
