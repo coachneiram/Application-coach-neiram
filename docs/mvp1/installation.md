@@ -42,6 +42,8 @@ node tools/crm.mjs relances
 node tools/crm.mjs lead --prenom Test --source Autre --dry-run
 ```
 
+La première commande doit afficher tous les tests verts. La deuxième doit répondre `{"ok":true,"relances":[]}` si le script est déployé. Supprime ensuite toute ligne « Test » créée par erreur.
+
 ## 5. Écriture dans les classeurs Programme (nouveau modèle)
 
 Le même script écrit aussi dans les classeurs `Programme_<client>` bâtis sur le nouveau modèle (onglets « BLOC 1 », « BLOC 2 »), sans configuration séparée : `CRM_URL` et `CRM_SECRET` suffisent, une fois le script redéployé avec les actions `readProgrammeJour` / `writeProgrammeJour` / `clearProgrammeJour` (étape 2, « Déployer → Gérer les déploiements → modifier → nouvelle version »).
@@ -52,13 +54,11 @@ node tools/programme.mjs jour-lecture --sheet <ID du classeur> --bloc 1 --jour 5
 
 `tools/programme.mjs` (commandes `jour`, `jour-lecture`, `jour-effacer`) ne touche jamais aux colonnes RPE, Commentaires Client ou Vidéo (formule) : seules Exercices, Séries, Répétitions, Intensité, Récupération, Consignes et S1 à S4 sont écrites.
 
-La première commande doit afficher tous les tests verts. La deuxième doit répondre `{"ok":true,"relances":[]}` si le script est déployé. Supprime ensuite toute ligne « Test » créée par erreur.
-
-## 5. Le rapport du lundi
+## 6. Le rapport du lundi
 
 Une Routine hebdomadaire (lundi 7 h, heure de Paris, identifiant `trig_018oJMRejWmgQDWfAz6crvb5`) relance cette session, exécute le skill `rapport-lundi` et dépose le rapport en **brouillon** dans ta boîte Gmail. Rien n'est envoyé. Limite connue : une Routine créée depuis une session ne transporte pas les connecteurs (Drive, Gmail). Si le rapport du lundi signale « connecteur indisponible », il aura utilisé le dernier export en cache et écrit le rapport dans `docs/rapports/`. Dans ce cas, recrée la Routine depuis claude.ai/code → Routines en cochant les connecteurs Google Drive et Gmail, avec le même texte de consigne (il est dans `.claude/skills/rapport-lundi/SKILL.md`). Si tu ne veux plus de la Routine : dis-le dans la session, ou désactive-la dans claude.ai/code → Routines.
 
-## 6. À me donner quand tu peux
+## 7. À me donner quand tu peux
 
 - Le périmètre exact de Clara (voir `memory/equipe.md`).
 - Un export ou des captures d'Instagram Insights (90 jours).
