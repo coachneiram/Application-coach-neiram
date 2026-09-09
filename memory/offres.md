@@ -24,7 +24,11 @@ Historique : grille de juillet 2026 à 240 / 220 / 200 € (hebdo) et 170 € (m
 
 Écart total du portefeuille : environ 440 à 635 €/mois, soit 5 000 à 7 600 €/an, sans un seul nouveau client. Aucune décision prise : un réalignement porte un risque de départ sur des clients fidèles, et certains tarifs sont des gestes assumés par Marien. Le moment naturel pour en parler est l'échéance d'engagement de chacun, pas une annonce groupée.
 
-**Vague de renouvellements décembre-janvier** : 7 engagements arrivent à échéance entre le 12/12/2026 et le 01/02/2027, dont 6 des clients sous l'ancienne grille. Environ 1 600 €/mois de facturation en jeu sur six semaines, en pleine période de fêtes. C'est la principale échéance commerciale du semestre, à préparer avant fin novembre.
+**Vague de renouvellements décembre-janvier** (mesurée par le Cash Engine le 09/09/2026, données CRM complètes) : 8 engagements arrivent à échéance entre le 12/12/2026 et le 01/02/2027 — 12/12, 14/12, 25/12, deux le 01/01, 13/01, 19/01, 01/02. **1 810 €/mois de facturation en jeu**, soit 56 % de la facturation mensuelle du portefeuille (3 230 €), sur sept semaines qui couvrent les fêtes.
+
+Six de ces huit clients sont sous l'ancienne grille. Réaligner ces six-là à l'échéance, sans toucher aux autres, vaut **+210 €/mois récurrents (+2 520 €/an)**. C'est la principale échéance commerciale du semestre. Les conversations se préparent début novembre pour les échéances de décembre : une relance de renouvellement lancée le 10 décembre arrive trop tard.
+
+Cas particulier hors vague : un client en suivi mensuel à tacite reconduction est à moins de la moitié de la grille actuelle (100 € contre 210 €). Sans échéance d'engagement, il n'y a pas de moment naturel pour en parler : c'est une conversation à provoquer, ou à laisser.
 
 Cours collectifs et associations : Pilates (240 à 320 €/mois facturés), associations Temps Danse et Prompsat, cours collectifs Fitness Park. Tarifs unitaires non documentés.
 
