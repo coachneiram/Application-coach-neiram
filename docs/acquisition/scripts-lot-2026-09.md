@@ -111,11 +111,11 @@ Ordre de tournage conseillé : 1, 2, 3 (datés en premier), puis 4 et 5, puis le
 
 **HOOK écran :** « Trois semaines, et ça s'écroule encore ? »
 
-**VO :** Tu as déjà repris. À chaque fois, ça tient trois semaines, puis un enfant malade, un dossier au boulot, une nuit courte, et c'est fini. Le Créneau Protégé, c'est l'accompagnement que j'ai construit pour ça. Pour les papas qui savent qu'ils doivent bouger, mais qui n'ont personne pour les tenir. On fixe ton heure dans la semaine. Je t'écris ton programme, adapté à ton matériel. On se voit en visio, tu m'envoies tes vidéos, je corrige ton geste. Chaque semaine, un bilan : ce qui a tenu, ce qui a sauté, ce qu'on ajuste. Au bout de trois mois, tu n'as plus besoin de motivation. Tu as un rendez-vous. Et l'énergie pour courir après tes gosses le dimanche.
+**VO :** Tu as déjà repris. À chaque fois, ça tient trois semaines, puis un enfant malade, un dossier au boulot, une nuit courte, et c'est fini. Le Créneau Protégé, c'est l'accompagnement que j'ai construit pour ça. Pour les papas qui savent qu'ils doivent bouger, mais qui n'ont personne pour les tenir. On fixe ton heure dans la semaine. Je t'écris ton programme, adapté à ton matériel. On se voit en visio, tu m'envoies tes vidéos, je corrige ton geste. Chaque semaine, un bilan : ce qui a tenu, ce qui a sauté, ce qu'on ajuste. Avec le temps, tu n'as plus besoin de motivation. Tu as un rendez-vous. Et l'énergie pour courir après tes gosses le dimanche.
 
 **CTA :** « Commente "PAPA", je t'envoie ma méthode en 1 page et on voit ensemble si c'est pour toi. » → Commente PAPA
 
-**Titre YouTube :** Le Créneau Protégé : pour quel papa, et ce que ça change en 3 mois
+**Titre YouTube :** Le Créneau Protégé : pour quel papa, et ce que ça change dans la durée
 
 **Description :** Un accompagnement pour les papas qui reprennent et lâchent au bout de trois semaines. Créneaux fixes, programme sur mesure, correction vidéo, bilan hebdo. https://coach-neiram.netlify.app #papa #coachingenligne #reprisedusport
 
